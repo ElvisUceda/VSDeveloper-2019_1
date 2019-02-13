@@ -23,9 +23,15 @@ namespace Chinook.UI.Desktop
             var da = new ArtistDA();
             var filtro = $"{txtBusquedaNombre.Text.Trim()}%";
 
-            var result = da.GetArtists(filtro);
+            //var result = da.GetArtists(filtro);
+            var result = da.GetArtisWithSP(filtro);
             dgvBuscar.DataSource = result;
             dgvBuscar.Refresh();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
