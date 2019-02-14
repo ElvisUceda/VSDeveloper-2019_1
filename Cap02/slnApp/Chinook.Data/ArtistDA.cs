@@ -240,6 +240,30 @@ namespace Chinook.Data
 
         }
 
+        // Actualizar Artist
+
+        //public int UpdateArtist(Genre entity)
+        //{
+        //    var result = 0;
+        //    using (IDbConnection cn
+        //        = new SqlConnection(GetConnection()))
+        //    {
+        //        cn.Open();
+        //        IDbCommand command =
+        //            new SqlCommand("usp_UpdateArtist");
+        //        command.Connection = cn;
+        //        command.CommandType = CommandType.StoredProcedure;
+        //        command.Parameters.Add(
+        //            new SqlParameter("@Name", entity.Name)
+        //            );
+
+        //        result = Convert.ToInt32(command.ExecuteScalar());
+
+        //    }
+        //    return result;
+
+        //}
+
 
     }
 }

@@ -25,3 +25,12 @@ D:\LabGitHub\Cap02\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csproj.CoreCompile
 D:\LabGitHub\Cap02\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csproj.CopyComplete
 D:\LabGitHub\Cap02\slnApp\Chinook.Data\obj\Debug\Chinook.Data.dll
 D:\LabGitHub\Cap02\slnApp\Chinook.Data\obj\Debug\Chinook.Data.pdb
+D:\LabGitHub01\Cap02\slnApp\Chinook.Data\bin\Debug\Chinook.Data.dll
+D:\LabGitHub01\Cap02\slnApp\Chinook.Data\bin\Debug\Chinook.Data.pdb
+D:\LabGitHub01\Cap02\slnApp\Chinook.Data\bin\Debug\Chinook.Entities.dll
+D:\LabGitHub01\Cap02\slnApp\Chinook.Data\bin\Debug\Chinook.Entities.pdb
+D:\LabGitHub01\Cap02\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csprojResolveAssemblyReference.cache
+D:\LabGitHub01\Cap02\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csproj.CoreCompileInputs.cache
+D:\LabGitHub01\Cap02\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csproj.CopyComplete
+D:\LabGitHub01\Cap02\slnApp\Chinook.Data\obj\Debug\Chinook.Data.dll
+D:\LabGitHub01\Cap02\slnApp\Chinook.Data\obj\Debug\Chinook.Data.pdb
