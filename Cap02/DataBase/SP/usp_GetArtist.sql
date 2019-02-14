@@ -9,8 +9,6 @@ BEGIN
 	WHERE Name like @pNombre
 END
 GO
-drop procedure usp_InsertArtist
-GO
 CREATE PROCEDURE usp_InsertArtist
 (
 @Name NVARCHAR(120)
@@ -22,6 +20,29 @@ BEGIN
 
 	SELECT SCOPE_IDENTITY()	
 
+END
+GO
+
+CREATE PROCEDURE usp_UpdateArtist
+(
+@Name NVARCHAR(120)
+)
+AS
+BEGIN
+	UPDATE Artist
+	SET Name = @Name
+END
+GO
+
+CREATE PROCEDURE usp_DeleteArtist
+(
+@Name NVARCHAR
+)
+AS
+BEGIN
+	DELETE
+	FROM Artist 
+	WHERE Name =@Name
 END
 GO
 CREATE PROCEDURE usp_InsertArtistWithOutput
@@ -66,10 +87,24 @@ BEGIN
 END
 GO
 
-SELECT TOP  * FROM Artist ORDER BY
+CREATE PROCEDURE usp_UpdateGenre
+(
+@Name NVARCHAR(120)
+)
+AS
+BEGIN
+	UPDATE Genre
+	SET Name = @Name
+	
+END
+GO
 
-
-
-
-
-
+CREATE PROCEDURE usp_DeleteGenre
+@Name NVARCHAR
+AS
+BEGIN
+	DELETE
+	FROM Genre
+	WHERE Name = @Name
+END
+GO
