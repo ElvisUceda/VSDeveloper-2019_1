@@ -105,7 +105,7 @@ namespace Chinook.Data
             return result;
         }
 
-        public List<Artist> GetArtisWithSP( string filterByname)
+        public List<Artist> GetArtisWithSP(string filterByname)
         {
             var result = new List<Artist>();
             var sql = "usp_GetArtist";
@@ -195,7 +195,7 @@ namespace Chinook.Data
 
             }
 
-                return result;
+            return result;
         }
 
         public int InsertArtistWithTX(Artist entity)
@@ -229,7 +229,7 @@ namespace Chinook.Data
                     // Confirmando la transaccion
                     transaction.Commit();
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     transaction.Rollback(); // Deshaciendo la transaccion local
                 }
@@ -240,30 +240,57 @@ namespace Chinook.Data
 
         }
 
-        // Actualizar Artist
+       // Actualizar Artist
 
-        //public int UpdateArtist(Genre entity)
-        //{
-        //    var result = 0;
-        //    using (IDbConnection cn
-        //        = new SqlConnection(GetConnection()))
-        //    {
-        //        cn.Open();
-        //        IDbCommand command =
-        //            new SqlCommand("usp_UpdateArtist");
-        //        command.Connection = cn;
-        //        command.CommandType = CommandType.StoredProcedure;
-        //        command.Parameters.Add(
-        //            new SqlParameter("@Name", entity.Name)
-        //            );
+        public int UpdateArtist(Artist entity)
+        {
+            var result = 0;
+            using (IDbConnection cn
+                = new SqlConnection(GetConnection()))
+            {
+                cn.Open();
+                IDbCommand command =
+                    new SqlCommand("usp_UpdateArtist");
+                command.Connection = cn;
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.Add(
+                      new SqlParameter("@Name", entity.Name)
+                   );
 
-        //        result = Convert.ToInt32(command.ExecuteScalar());
 
-        //    }
-        //    return result;
+                result = Convert.ToInt32(command.ExecuteScalar());
 
-        //}
+            }
+            return result;
+
+        }
+
+        // Eliminar Artist
+
+        public int DeleteArtist(Artist entity)
+        {
+            var result = 0;
+            using (IDbConnection cn
+                = new SqlConnection(GetConnection()))
+            {
+                cn.Open();
+                IDbCommand command =
+                    new SqlCommand("usp_DeleteArtist");
+                command.Connection = cn;
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.Add(
+                    new SqlParameter("@Name", entity.Name)
+                    );
+
+                result = Convert.ToInt32(command.ExecuteScalar());
+
+            }
+
+            return result;
+
+        }
 
 
     }
 }
+

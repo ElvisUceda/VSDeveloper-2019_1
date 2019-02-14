@@ -22,16 +22,27 @@ namespace Chinook.Data.Test
 
         }
 
-        //[TestMethod]
-        //public void UpdateGenreTest()
-        //{
-        //    var da = new GenreDA();
-        //    var actualizarGenero = da.UpdateGenre(
-        //        new Genre() { Name = "Actualiza Genero" + Guid.NewGuid().ToString() });
+        [TestMethod]
+        public void UpdateGenreTest()
+        {
+            var da = new GenreDA();
+            var actualizarGenero = da.UpdateGenre(
+                new Genre() { Name = "Actualiza Genero" + Guid.NewGuid().ToString() });
 
-        //    Assert.IsTrue(actualizarGenero > 0);
+           // Assert.IsTrue(actualizarGenero > 0);
 
-        //}
+        }
+
+        [TestMethod]
+        public void DeleteGenreTest()
+        {
+            var da = new GenreDA();
+            var eliminaArtista = da.DeleteGenre(
+                new Genre() { Name = "Eliminar Genero" + Guid.NewGuid().ToString() });
+
+            // Assert.IsTrue(eliminaArtista > 0);
+
+        }
 
     }
 
