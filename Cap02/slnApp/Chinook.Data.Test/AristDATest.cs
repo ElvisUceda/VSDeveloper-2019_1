@@ -76,7 +76,7 @@ namespace Chinook.Data.Test
             var actualizarArtista = da.UpdateArtist(
                 new Artist() { Name = "Actualiza Artista" + Guid.NewGuid().ToString() });
 
-            //Assert.IsTrue(actualizarArtista > 0);
+           
 
         }
 
@@ -89,7 +89,18 @@ namespace Chinook.Data.Test
             var eliminaArtista = da.DeleteArtist(
                 new Artist() { Name = "Eliminar Artista" + Guid.NewGuid().ToString() });
 
-           // Assert.IsTrue(eliminaArtista > 0);
+          
+
+        }
+        [TestMethod]
+        public void InsertArtistWithTXTestDist()
+        {
+            var da = new ArtistDA();
+           
+            var nuevoArtista = da.InsertArtistWithTXDist(
+                new Artist() { Name = "Nuevo Artista" + Guid.NewGuid().ToString() });
+
+            Assert.IsTrue(nuevoArtista > 0);
 
         }
 
