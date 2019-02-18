@@ -22,7 +22,7 @@ namespace Chinook.Data
             using (IDbConnection cn = new SqlConnection(GetConnection()))
             {
 
-                result = cn.Query<int>(sql).First();
+                result = cn.Query<int>(sql).Single();
 
             }
 

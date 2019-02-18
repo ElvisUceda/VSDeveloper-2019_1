@@ -34,3 +34,9 @@ C:\Users\VS2017-DEV\Desktop\LabGitHub\Cap02\slnApp\Chinook.Entities\obj\Debug\Ch
 C:\Users\VS2017-DEV\Desktop\LabGitHub\Cap02\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csproj.CoreCompileInputs.cache
 C:\Users\VS2017-DEV\Desktop\LabGitHub\Cap02\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.dll
 C:\Users\VS2017-DEV\Desktop\LabGitHub\Cap02\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.pdb
+D:\LabGitHub\Cap03\slnApp\Chinook.Entities\bin\Debug\Chinook.Entities.dll
+D:\LabGitHub\Cap03\slnApp\Chinook.Entities\bin\Debug\Chinook.Entities.pdb
+D:\LabGitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csprojAssemblyReference.cache
+D:\LabGitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csproj.CoreCompileInputs.cache
+D:\LabGitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.dll
+D:\LabGitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.pdb

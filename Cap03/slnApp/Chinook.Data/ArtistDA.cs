@@ -225,7 +225,7 @@ namespace Chinook.Data
                     result = Convert.ToInt32(command.ExecuteScalar());
 
                     // Simulando un error
-                    // Throw new Exception(Error al insertar")
+                    // Throw new Exception(Error al insertar");
 
                     // Confirmando la transaccion
                     transaction.Commit();

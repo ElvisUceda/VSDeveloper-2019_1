@@ -50,6 +50,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlbumDADapperTest.cs" />
     <Compile Include="AristDADapperTest.cs" />
     <Compile Include="AristDATest.cs" />
     <Compile Include="GenreDADapperTest.cs" />
