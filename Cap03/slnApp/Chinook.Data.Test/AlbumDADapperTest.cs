@@ -8,6 +8,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Chinook.Data.Test
 {
+    [TestClass]
     public class AlbumDADapperTest
     {
         [TestMethod]
@@ -18,5 +19,24 @@ namespace Chinook.Data.Test
             Assert.IsTrue(da.GetCount() > 0);
 
         }
+
+        [TestMethod]
+        public void GetAlbumTest()
+        {
+            var da = new AlbumDapperDA();
+
+            Assert.IsTrue(da.GetAlbum().Count > 0);
+
+        }
+
+        [TestMethod]
+        public void GetArlbumByNameTest()
+        {
+            var da = new AlbumDapperDA();
+
+            Assert.IsTrue(da.GetAlbum("a%").Count > 0);
+
+        }
+
     }
 }

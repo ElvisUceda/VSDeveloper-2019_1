@@ -40,3 +40,9 @@ D:\LabGitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csprojAsse
 D:\LabGitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csproj.CoreCompileInputs.cache
 D:\LabGitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.dll
 D:\LabGitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.pdb
+C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Entities\bin\Debug\Chinook.Entities.dll
+C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Entities\bin\Debug\Chinook.Entities.pdb
+C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csprojAssemblyReference.cache
+C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csproj.CoreCompileInputs.cache
+C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.dll
+C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.pdb

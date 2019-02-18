@@ -27,5 +27,35 @@ namespace Chinook.Data
 
             return result;
         }
+
+        public List<Album> GetAlbum()
+        {
+            var result = new List<Album>();
+            var sql = "SELECT AlbumId,Title FROM Album";
+            using (IDbConnection cn = new SqlConnection(GetConnection()))
+            {
+
+                result = cn.Query<Album>(sql).ToList();
+
+            }
+
+            return result;
+        }
+
+        public List<Album> GetAlbum(string filterByName)
+        {
+            var result = new List<Album>();
+            var sql = "SELECT AlbumId,Title FROM Album WHERE Title like @title";
+            using (IDbConnection cn = new SqlConnection(GetConnection()))
+            {
+
+                result = cn.Query<Album>(sql
+                    , new { title = filterByName }).ToList();
+
+
+            }
+
+            return result;
+        }
     }
 }
