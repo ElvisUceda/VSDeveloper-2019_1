@@ -118,3 +118,30 @@ GO
 SELECT TOP 10 * FROM Artist
 ORDER BY ArtistId DESC
 GO
+
+CREATE PROCEDURE usp_GetAlbum
+(@pTitle NVARCHAR(160)
+)
+AS
+BEGIN
+
+	SELECT AlbumId, Title
+	FROM Album
+	WHERE Title like @pTitle
+END
+GO
+
+CREATE PROCEDURE usp_InsertAlbum
+(
+@Title NVARCHAR(160)
+)
+AS
+BEGIN
+	INSERT INTO Album (Title)
+	VALUES(@Title)
+
+	SELECT SCOPE_IDENTITY()	
+
+END
+GO
+
