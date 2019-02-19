@@ -83,6 +83,7 @@ namespace Chinook.Data
             {
                 result = cn.Query<int>("usp_InsertArtist",
                      new { Name = entity.Name },
+
                      commandType: CommandType.StoredProcedure).Single();
 
 

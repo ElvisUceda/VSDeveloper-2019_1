@@ -75,15 +75,58 @@ namespace Chinook.Data
             return result;
         }
 
-        public int InsertAlbum(Album entity)
+        //public int InsertAlbum(Album entity)
+        //{
+        //    var result = 0;
+        //    using (IDbConnection cn
+        //        = new SqlConnection(GetConnection()))
+        //    {
+        //        result = cn.Query<int>("usp_InsertAlbum",
+        //             new { Title = entity.Title },
+        //             new { ArtistId = entity.ArtistId },
+
+        //             commandType: CommandType.StoredProcedure).Single();
+
+
+
+
+        //    }
+
+        //    return result;
+
+        //}
+
+        //public bool UpdateAlbum(Album entity)
+        //{
+        //    var result = false;
+        //    using (IDbConnection cn
+        //        = new SqlConnection(GetConnection()))
+        //    {
+        //        cn.Query("usp_UpdateAlbum",
+        //            new { Title = entity.Title },
+        //            commandType: CommandType.StoredProcedure);
+
+        //        result = true;
+
+        //    }
+        //    return result;
+        //}
+
+        public int DeleteAlbum(Album entity)
         {
             var result = 0;
             using (IDbConnection cn
                 = new SqlConnection(GetConnection()))
             {
-                result = cn.Query<int>("usp_InsertAlbum",
-                     new { Title = entity.Title },
-                     commandType: CommandType.StoredProcedure).Single();
+                cn.Open();
+                IDbCommand command =
+                    new SqlCommand("usp_DeleteAlbum");
+                command.Connection = cn;
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.Add(
+                    new SqlParameter("@Title", entity.Title)
+                    );
+
 
 
             }

@@ -53,6 +53,7 @@
     <Compile Include="AlbumDADapperTest.cs" />
     <Compile Include="AristDADapperTest.cs" />
     <Compile Include="AristDATest.cs" />
+    <Compile Include="CustomerDADapperTest.cs" />
     <Compile Include="GenreDADapperTest.cs" />
     <Compile Include="GenreDATest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
