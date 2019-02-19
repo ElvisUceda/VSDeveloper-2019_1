@@ -165,7 +165,6 @@ D:\LabGitHub\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Chinook.Entities.pdb
 D:\LabGitHub\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 D:\LabGitHub\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 D:\LabGitHub\Cap03\slnApp\Chinook.Data.Test\bin\Debug\Dapper.xml
-D:\LabGitHub\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csprojAssemblyReference.cache
 D:\LabGitHub\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csproj.CoreCompileInputs.cache
 D:\LabGitHub\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csproj.CopyComplete
 D:\LabGitHub\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.dll
@@ -193,3 +192,4 @@ C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chi
 C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csproj.CopyComplete
 C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.dll
 C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.pdb
+D:\LabGitHub\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csprojResolveAssemblyReference.cache

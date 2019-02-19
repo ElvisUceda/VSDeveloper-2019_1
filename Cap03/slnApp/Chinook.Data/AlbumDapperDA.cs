@@ -57,5 +57,39 @@ namespace Chinook.Data
 
             return result;
         }
+
+        public List<Album> GetAlbumWithSP(string filterByname)
+        {
+            var result = new List<Album>();
+            var sql = "usp_GetAlbum";
+            using (IDbConnection cn = new SqlConnection(GetConnection()))
+            {
+                result = cn.Query<Album>(sql
+                      , new { pTitle = filterByname }
+                      , commandType: CommandType.StoredProcedure).ToList();
+
+
+
+            }
+
+            return result;
+        }
+
+        public int InsertAlbum(Album entity)
+        {
+            var result = 0;
+            using (IDbConnection cn
+                = new SqlConnection(GetConnection()))
+            {
+                result = cn.Query<int>("usp_InsertAlbum",
+                     new { Title = entity.Title },
+                     commandType: CommandType.StoredProcedure).Single();
+
+
+            }
+
+            return result;
+
+        }
     }
 }

@@ -10,9 +10,9 @@ namespace Chinook.Data
     {
         public string GetConnection()
         {
-            string cadenaConexion = "Data Source=PC99006\\SQLEXPRESS;" +
+            string cadenaConexion = "Data Source=ELVIS-PC\\SQLEXPRESS;" +
                                         "Initial Catalog=Chinook; " +
-                                        "User ID=sa; Password=G@tit0_lusa";
+                                        "User ID=sa; Password=sql";
             return cadenaConexion;
         }
     }

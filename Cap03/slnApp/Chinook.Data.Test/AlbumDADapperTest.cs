@@ -30,7 +30,7 @@ namespace Chinook.Data.Test
         }
 
         [TestMethod]
-        public void GetArlbumByNameTest()
+        public void GetAlbumByNameTest()
         {
             var da = new AlbumDapperDA();
 
@@ -38,5 +38,22 @@ namespace Chinook.Data.Test
 
         }
 
+        [TestMethod]
+        public void GetAlbumByNameWithSPTest()
+        {
+            var da = new AlbumDapperDA();
+            Assert.IsTrue(da.GetAlbumWithSP("a%").Count > 0);
+        }
+
+        [TestMethod]
+        public void InsertAlbumTest()
+        {
+            var da = new AlbumDapperDA();
+            var nuevoAlbum = da.InsertAlbum(
+                new Album() { Title = "Nuevo Album" + Guid.NewGuid().ToString() });
+
+            Assert.IsTrue(nuevoAlbum > 0);
+
+        }
     }
 }
