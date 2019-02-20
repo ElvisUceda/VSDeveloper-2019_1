@@ -59,22 +59,22 @@ namespace Chinook.Data
         //    return result;
         //}
 
-        public int InsertCustomer(Customer entity)
-        {
-            var result = 0;
-            using (IDbConnection cn
-                = new SqlConnection(GetConnection()))
-            {
-                result = cn.Query<int>("usp_InsertCustomer",
-                     new { Name = entity.Name },
+        //public int InsertCustomer(Customer entity)
+        //{
+        //    var result = 0;
+        //    using (IDbConnection cn
+        //        = new SqlConnection(GetConnection()))
+        //    {
+        //        result = cn.Query<int>("usp_InsertCustomer",
+        //             new { Name = entity.Name },
 
-                     commandType: CommandType.StoredProcedure).Single();
+        //             commandType: CommandType.StoredProcedure).Single();
 
 
-            }
+        //    }
 
-            return result;
+        //    return result;
 
-        }
+        //}
     }
 }

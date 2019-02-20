@@ -34,7 +34,7 @@ namespace Chinook.Data.Test
         //[TestMethod]
         //public void UpdateGenreTest()
         //{
-        //    var da = new GenreDA();
+        //    var da = new GenreDapperDA();
         //    var actualizarGenero = da.UpdateGenre(
         //        new Genre() { Name = "Actualiza Genero" + Guid.NewGuid().ToString() });
 

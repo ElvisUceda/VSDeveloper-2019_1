@@ -59,27 +59,20 @@ namespace Chinook.Data
         }
 
 
-        //public int UpdateGenre(Genre entity)
+        //public bool UpdateGenre(Genre entity)
         //{
-        //    var result = 0;
+        //    var result = false;
         //    using (IDbConnection cn
         //        = new SqlConnection(GetConnection()))
         //    {
-        //        cn.Open();
-        //        IDbCommand command =
-        //            new SqlCommand("usp_UpdateGenre");
-        //        command.Connection = cn;
-        //        command.CommandType = CommandType.StoredProcedure;
-        //        command.Parameters.Add(
-        //            new SqlParameter("@Name", entity.Name),
-        //            new SqlParameter("@GenreId", entity.GenreId)
-        //            );
+        //        cn.Query("usp_UpdateGenre",
+        //            new { Name = entity.Name },
+        //            new {GenreId = entity.GenreId},
+        //            commandType: CommandType.StoredProcedure);
 
-        //        // result = Convert.ToInt32(command.ExecuteScalar());
-
+        //        result = true;
         //    }
         //    return result;
-
         //}
 
 
