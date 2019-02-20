@@ -133,15 +133,16 @@ GO
 
 CREATE PROCEDURE usp_InsertAlbum
 (
-@Title NVARCHAR(160)
+@AlbumId INT,
+@Title NVARCHAR(160),
+@ArtistId INT
 )
 AS
 BEGIN
-	INSERT INTO Album (Title)
-	VALUES(@Title)
-
+	INSERT INTO Album (AlbumId, Title, ArtistId)
+				VALUES(@AlbumId, @Title, @ArtistId)
 	SELECT SCOPE_IDENTITY()	
-
 END
 GO
+
 
