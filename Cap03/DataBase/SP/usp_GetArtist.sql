@@ -133,15 +133,96 @@ GO
 
 CREATE PROCEDURE usp_InsertAlbum
 (
-@AlbumId INT,
 @Title NVARCHAR(160),
 @ArtistId INT
 )
 AS
 BEGIN
-	INSERT INTO Album (AlbumId, Title, ArtistId)
-				VALUES(@AlbumId, @Title, @ArtistId)
+	INSERT INTO Album (Title, ArtistId)
+				VALUES(@Title, @ArtistId)
 	SELECT SCOPE_IDENTITY()	
+END
+GO
+
+CREATE PROCEDURE usp_UpdateAlbum
+(
+@AlbumId INT,
+@Title NVARCHAR(160),
+@ArtistId INT 
+)
+AS
+BEGIN
+	UPDATE Album
+	SET Title = @Title, ArtistId= @ArtistId 
+	where AlbumId = @AlbumId
+	
+END
+GO
+
+CREATE PROCEDURE usp_DeleteAlbum
+@Title NVARCHAR(160)
+AS
+BEGIN
+	DELETE
+	FROM Album
+	WHERE Title = @Title
+END
+GO
+
+CREATE PROCEDURE usp_InsertCustomer
+(
+@FirstName NVARCHAR(40),
+@LastName NVARCHAR(20),
+@Company NVARCHAR(80),
+@Address NVARCHAR(70),
+@City NVARCHAR(40),
+@State NVARCHAR(40),
+@Country NVARCHAR(40),
+@PostalCode NVARCHAR(10),
+@Phone NVARCHAR(24),
+@Fax NVARCHAR(24),
+@Email NVARCHAR(60),
+@SupportRepId INT
+)
+AS
+BEGIN
+	INSERT INTO Customer (FirstName, LastName, Company, Address, City, State, Country, PostalCode, Phone, Fax, Email, SupportRepId)
+					VALUES(@FirstName, @LastName, @Company, @Address, @City, @State, @Country, @PostalCode,@Phone, @Fax, @Email, @SupportRepId )
+	SELECT SCOPE_IDENTITY()	
+END
+GO
+CREATE PROCEDURE usp_UpdateCustomer
+(
+@CustomerId INT,
+@FirstName NVARCHAR(40),
+@LastName NVARCHAR(20),
+@Company NVARCHAR(80),
+@Address NVARCHAR(70),
+@City NVARCHAR(40),
+@State NVARCHAR(40),
+@Country NVARCHAR(40),
+@PostalCode NVARCHAR(10),
+@Phone NVARCHAR(24),
+@Fax NVARCHAR(24),
+@Email NVARCHAR(60),
+@SupportRepId INT
+)
+AS
+BEGIN
+	UPDATE Customer
+	SET FirstName = @FirstName, LastName=@LastName, Company=@Company, Address=@Address, City=@City, State=@State,
+	 Country=@Country, PostalCode=@PostalCode, Phone=@Phone, Fax=@Fax, Email=@Email, SupportRepId=@SupportRepId 
+	where CustomerId = @CustomerId
+	
+END
+GO
+CREATE PROCEDURE usp_DeleteCustomer
+@Firstname NVARCHAR(40)
+AS
+BEGIN
+	DELETE
+	FROM Customer
+	WHERE FirstName = @Firstname
 END
 GO
 
