@@ -82,10 +82,9 @@ namespace Chinook.Data
         //        = new SqlConnection(GetConnection()))
         //    {
         //        result = cn.Query<int>("usp_InsertAlbum",
-        //             new { Title = entity.Title },
-        //             new { ArtistId = entity.ArtistId },
+        //             new { Title = entity.Title, ArtistId = entity.ArtistId },
 
-        //             commandType: CommandType.StoredProcedure).Single();
+        //            commandType: CommandType.StoredProcedure).Single();
 
 
 
@@ -94,45 +93,40 @@ namespace Chinook.Data
 
         //    return result;
 
-       // }
+        // }
 
-        //public bool UpdateAlbum(Album entity)
-        //{
-        //    var result = false;
-        //    using (IDbConnection cn
-        //        = new SqlConnection(GetConnection()))
-        //    {
-        //        cn.Query("usp_UpdateAlbum",
-        //            new { Title = entity.Title },
-        //            commandType: CommandType.StoredProcedure);
+        public bool UpdateAlbum(Album entity)
+        {
+            var result = false;
+            using (IDbConnection cn
+                = new SqlConnection(GetConnection()))
+            {
+                cn.Query("usp_UpdateAlbum",
+                    new {AlbumId = entity.AlbumId, Title = entity.Title, ArtistId = entity.ArtistId },
+                    commandType: CommandType.StoredProcedure);
 
-        //        result = true;
+                result = true;
 
-        //    }
-        //    return result;
-        //}
+            }
+            return result;
+        }
 
+       
         public int DeleteAlbum(Album entity)
         {
             var result = 0;
             using (IDbConnection cn
                 = new SqlConnection(GetConnection()))
             {
-                cn.Open();
-                IDbCommand command =
-                    new SqlCommand("usp_DeleteAlbum");
-                command.Connection = cn;
-                command.CommandType = CommandType.StoredProcedure;
-                command.Parameters.Add(
-                    new SqlParameter("@Title", entity.Title)
-                    );
+                result = cn.Query<int>("usp_DeleteAlbum",
+                     new { Title = entity.Title },
 
+                     commandType: CommandType.StoredProcedure).Single();
 
 
             }
 
             return result;
-
         }
     }
 }

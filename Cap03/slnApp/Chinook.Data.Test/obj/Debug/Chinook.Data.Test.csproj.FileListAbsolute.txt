@@ -192,4 +192,4 @@ C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chi
 C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csproj.CopyComplete
 C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.dll
 C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.pdb
-D:\LabGitHub\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csprojResolveAssemblyReference.cache
+D:\LabGitHub\Cap03\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csprojAssemblyReference.cache

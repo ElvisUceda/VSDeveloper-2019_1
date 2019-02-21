@@ -76,5 +76,55 @@ namespace Chinook.Data
         //    return result;
 
         //}
+
+        public bool UpdateCustomer(Customer entity)
+        {
+            var result = false;
+            using (IDbConnection cn
+                = new SqlConnection(GetConnection()))
+            {
+                cn.Query("usp_UpdateCustomer",
+                    new
+                    {
+                        CustomerId = entity.CustomerId,
+                        FirstName = entity.FirstName,
+                        LastName = entity.LastName,
+                        Company = entity.Company,
+                        Address = entity.Address,
+                        City = entity.City,
+                        State = entity.State,
+                        Country = entity.Country,
+                        PostalCode = entity.PostalCode,
+                        Phone = entity.Phone,
+                        Fax = entity.Fax,
+                        Email = entity.Email,
+                        SupportRepId= entity.SupportRepId
+                        
+                    },
+                        
+                    commandType: CommandType.StoredProcedure);
+
+                result = true;
+
+            }
+            return result;
+        }
+
+        public int DeleteCustomer(Customer entity)
+        {
+            var result = 0;
+            using (IDbConnection cn
+                = new SqlConnection(GetConnection()))
+            {
+                result = cn.Query<int>("usp_DeleteCustomer",
+                     new { FirstName = entity.FirstName },
+
+                     commandType: CommandType.StoredProcedure).Single();
+
+
+            }
+
+            return result;
+        }
     }
 }

@@ -84,4 +84,4 @@ C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Data\obj\Debug\Chinook.
 C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csproj.CopyComplete
 C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Data\obj\Debug\Chinook.Data.dll
 C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Data\obj\Debug\Chinook.Data.pdb
-D:\LabGitHub\Cap03\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csprojResolveAssemblyReference.cache
+D:\LabGitHub\Cap03\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csprojAssemblyReference.cache

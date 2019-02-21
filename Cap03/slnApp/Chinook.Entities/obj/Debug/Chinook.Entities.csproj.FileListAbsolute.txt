@@ -45,4 +45,4 @@ C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chin
 C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csproj.CoreCompileInputs.cache
 C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.dll
 C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.pdb
-D:\LabGitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csprojResolveAssemblyReference.cache
+D:\LabGitHub\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csprojAssemblyReference.cache

@@ -20,6 +20,7 @@ namespace Chinook.Entities
         public string Phone { get; set; }
         public string Fax { get; set; }
         public string Email { get; set; }
+        public int SupportRepId { get; set; }
 
     }
 }

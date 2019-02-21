@@ -59,22 +59,21 @@ namespace Chinook.Data
         }
 
 
-        //public bool UpdateGenre(Genre entity)
-        //{
-        //    var result = false;
-        //    using (IDbConnection cn
-        //        = new SqlConnection(GetConnection()))
-        //    {
-        //        cn.Query("usp_UpdateGenre",
-        //            new { Name = entity.Name },
-        //            new {GenreId = entity.GenreId},
-        //            commandType: CommandType.StoredProcedure);
+        public bool UpdateGenre(Genre entity)
+        {
+            var result = false;
+            using (IDbConnection cn
+                = new SqlConnection(GetConnection()))
+            {
+                cn.Query("usp_UpdateGenre",
+                    new { GenreId = entity.GenreId, Name = entity.Name},
+                   
+                    commandType: CommandType.StoredProcedure);
 
-        //        result = true;
-        //    }
-        //    return result;
-        //}
-
+                result = true;
+            }
+            return result;
+        }
 
         public int DeleteGenre(Genre entity)
         {
@@ -82,21 +81,15 @@ namespace Chinook.Data
             using (IDbConnection cn
                 = new SqlConnection(GetConnection()))
             {
-                cn.Open();
-                IDbCommand command =
-                    new SqlCommand("usp_DeleteGenre");
-                command.Connection = cn;
-                command.CommandType = CommandType.StoredProcedure;
-                command.Parameters.Add(
-                    new SqlParameter("@Name", entity.Name)
-                    );
+                result = cn.Query<int>("usp_DeleteGenre",
+                     new { GenreId = entity.GenreId, Name = entity.Name },
 
-               // result = Convert.ToInt32(command.ExecuteScalar());
+                     commandType: CommandType.StoredProcedure).Single();
+
 
             }
 
             return result;
-
         }
     }
 }

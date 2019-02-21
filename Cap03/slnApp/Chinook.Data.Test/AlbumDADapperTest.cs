@@ -58,16 +58,16 @@ namespace Chinook.Data.Test
         //}
 
 
-        //[TestMethod]
-        //public void UpdateAlbumTest()
-        //{
-        //    var da = new AlbumDapperDA();
-        //    var actualizarAlbum = da.UpdateAlbum(
-        //        new Album() { Title = "Actualiza Album" + Guid.NewGuid().ToString() });
+        [TestMethod]
+        public void UpdateAlbumTest()
+        {
+            var da = new AlbumDapperDA();
+            var actualizarAlbum = da.UpdateAlbum(
+                new Album() { Title = "Actualiza Album" + Guid.NewGuid().ToString() });
 
 
 
-        //}
+        }
 
         [TestMethod]
         public void DeleteAlbumTest()

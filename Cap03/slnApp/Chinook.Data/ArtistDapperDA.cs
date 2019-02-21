@@ -169,28 +169,30 @@ namespace Chinook.Data
 
         // Eliminar Artist
 
-        public int DeleteArtist(Artist entity)
-        {
-            var result = 0;
-            using (IDbConnection cn
-                = new SqlConnection(GetConnection()))
-            {
-                cn.Open();
-                IDbCommand command =
-                    new SqlCommand("usp_DeleteArtist");
-                command.Connection = cn;
-                command.CommandType = CommandType.StoredProcedure;
-                command.Parameters.Add(
-                    new SqlParameter("@Name", entity.Name)
-                    );
+        //public int DeleteArtist(Artist entity)
+        //{
+        //    var result = 0;
+        //    using (IDbConnection cn
+        //        = new SqlConnection(GetConnection()))
+        //    {
+        //        cn.Open();
+        //        IDbCommand command =
+        //            new SqlCommand("usp_DeleteArtist");
+        //        command.Connection = cn;
+        //        command.CommandType = CommandType.StoredProcedure;
+        //        command.Parameters.Add(
+        //            new SqlParameter("@Name", entity.Name)
+        //            );
 
               
 
-            }
+        //    }
 
-            return result;
+        //    return result;
 
-        }
+        //}
+
+           
 
         public int InsertArtistWithTXDist(Artist entity)
         {

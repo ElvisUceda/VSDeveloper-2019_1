@@ -13,36 +13,25 @@ namespace Chinook.Data.Test
 
     public class CustomerDADapperTest
     {
-        //[TestMethod]
-        //public void GetCountTest()
-        //{
-        //    var da = new CustomerDapperDA();
-
-        //    Assert.IsTrue(da.GetCount() > 0);
-
-        //}
-        //}
-
-
-        //[TestMethod]
-        //public void GetCustomerTest()
-        //{
-        //    var da = new CustomerDapperDA();
-
-        //    Assert.IsTrue(da.GetCustomer().Count > 0);
-
-        //}
-
-        //[TestMethod]
-        //public void GetCustomerByNameTest()
-        //{
-        //    var da = new CustomerDapperDA();
-
-        //    Assert.IsTrue(da.GetCustomer("a%").Count > 0);
-
-        //}
+        [TestMethod]
+        public void UpdateCustomerTest()
+        {
+            var da = new CustomerDapperDA();
+            var actualizarAlbum = da.UpdateCustomer(
+                new Customer() { FirstName = "Actualiza Customer" + Guid.NewGuid().ToString() });
 
 
 
+        }
+
+
+        [TestMethod]
+        public void DeleteCustomerTest()
+        {
+            var da = new CustomerDapperDA();
+            var eliminaAlbum = da.DeleteCustomer(
+                new Customer() { FirstName = "Eliminar Customer" + Guid.NewGuid().ToString() });
+        }
     }
+
 }
