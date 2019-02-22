@@ -112,16 +112,16 @@ namespace Chinook.Data
         }
 
        
-        public int DeleteAlbum(Album entity)
+        public bool DeleteAlbum(Album entity)
         {
-            var result = 0;
+            var result = false;
             using (IDbConnection cn
                 = new SqlConnection(GetConnection()))
             {
-                result = cn.Query<int>("usp_DeleteAlbum",
+                 cn.Query<int>("usp_DeleteAlbum",
                      new { Title = entity.Title },
 
-                     commandType: CommandType.StoredProcedure).Single();
+                     commandType: CommandType.StoredProcedure);
 
 
             }

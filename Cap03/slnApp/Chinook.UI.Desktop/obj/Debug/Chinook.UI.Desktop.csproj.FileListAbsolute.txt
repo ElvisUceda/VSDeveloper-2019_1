@@ -108,7 +108,6 @@ C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Ch
 C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csproj.CopyComplete
 C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.exe
 C:\Users\os99st\Desktop\Lab01GitHub\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.pdb
-D:\LabGitHub\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csprojResolveAssemblyReference.cache
 C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap03\slnApp\Chinook.UI.Desktop\bin\Debug\Chinook.UI.Desktop.exe.config
 C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap03\slnApp\Chinook.UI.Desktop\bin\Debug\Chinook.UI.Desktop.exe
 C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap03\slnApp\Chinook.UI.Desktop\bin\Debug\Chinook.UI.Desktop.pdb
@@ -126,3 +125,4 @@ C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap03\slnApp\Chinook.UI
 C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csproj.CopyComplete
 C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.exe
 C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.pdb
+D:\LabGitHub\Cap03\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csprojAssemblyReference.cache

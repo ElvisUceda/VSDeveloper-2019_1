@@ -59,23 +59,35 @@ namespace Chinook.Data
         //    return result;
         //}
 
-        //public int InsertCustomer(Customer entity)
-        //{
-        //    var result = 0;
-        //    using (IDbConnection cn
-        //        = new SqlConnection(GetConnection()))
-        //    {
-        //        result = cn.Query<int>("usp_InsertCustomer",
-        //             new { Name = entity.Name },
+        public int InsertCustomer(Customer entity)
+        {
+            var result = 0;
+            using (IDbConnection cn
+                = new SqlConnection(GetConnection()))
+            {
+                result = cn.Query<int>("usp_InsertCustomer",
+                     new
+                     {
+                         FirstName = entity.FirstName,
+                         LastName = entity.LastName,
+                         Company = entity.Company,
+                         Address = entity.Address,
+                         City = entity.City,
+                         State = entity.State,
+                         Country = entity.Country,
+                         PostalCode = entity.PostalCode,
+                         Phone = entity.Phone,
+                         Fax = entity.Fax,
+                         Email = entity.Email,
+                         SupportRepId = entity.SupportRepId
 
-        //             commandType: CommandType.StoredProcedure).Single();
+                     },
+                        commandType: CommandType.StoredProcedure).Single();
+            }
 
+            return result;
 
-        //    }
-
-        //    return result;
-
-        //}
+        }
 
         public bool UpdateCustomer(Customer entity)
         {
@@ -117,13 +129,13 @@ namespace Chinook.Data
                 = new SqlConnection(GetConnection()))
             {
                  cn.Query<int>("usp_DeleteCustomer",
-                     new { FirstName = entity.FirstName },
+                     new {FirstName = entity.FirstName },
 
                      commandType: CommandType.StoredProcedure);
 
 
             }
-            //
+            
 
             return result;
         }
