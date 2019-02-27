@@ -52,3 +52,9 @@ C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap03\slnApp\Chinook.En
 C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csproj.CoreCompileInputs.cache
 C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.dll
 C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap03\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.pdb
+C:\Users\VS2017-DEV\Desktop\GitHub\Cap04\slnApp\Chinook.Entities\bin\Debug\Chinook.Entities.dll
+C:\Users\VS2017-DEV\Desktop\GitHub\Cap04\slnApp\Chinook.Entities\bin\Debug\Chinook.Entities.pdb
+C:\Users\VS2017-DEV\Desktop\GitHub\Cap04\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csprojAssemblyReference.cache
+C:\Users\VS2017-DEV\Desktop\GitHub\Cap04\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEV\Desktop\GitHub\Cap04\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.dll
+C:\Users\VS2017-DEV\Desktop\GitHub\Cap04\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.pdb

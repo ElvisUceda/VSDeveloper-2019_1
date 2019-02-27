@@ -31,19 +31,19 @@ namespace App.EF.CodeFirst.test
             Assert.IsTrue(id > 0);
         }
 
-        [TestMethod]
-        public void DeleteBatch()
-        {
-            var list = new List<int>();
-            list.Add(292);
-            list.Add(291);
-            list.Add(290);
-            var da = new ArtistDA();
-            Assert.IsTrue(da.DeleteBatch(list));
+        //[TestMethod]
+        //public void DeleteBatch()
+        //{
+        //    var list = new List<int>();
+        //    list.Add(294);
+        //    list.Add(295);
+        //    list.Add(296);
+        //    var da = new ArtistDA();
+        //    Assert.IsTrue(da.DeleteBatch(list));
           
 
             
-        }
+        //}
 
     }
 }

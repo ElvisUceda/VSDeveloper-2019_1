@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.EF.CodeFirst.Entities",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.EF.CodeFirst.test", "UnitTest1\App.EF.CodeFirst.test.csproj", "{3ED3F139-E2E6-4D4B-868E-88F68977BAE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.EF.Entities.Query", "App.EF.Entities.Query\App.EF.Entities.Query.csproj", "{1E065213-F0FD-4109-A4B7-4AD891176382}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{3ED3F139-E2E6-4D4B-868E-88F68977BAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ED3F139-E2E6-4D4B-868E-88F68977BAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ED3F139-E2E6-4D4B-868E-88F68977BAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E065213-F0FD-4109-A4B7-4AD891176382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E065213-F0FD-4109-A4B7-4AD891176382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E065213-F0FD-4109-A4B7-4AD891176382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E065213-F0FD-4109-A4B7-4AD891176382}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{743E5273-C022-4DA1-8D2B-FE55A1D7CC9F} = {936BF079-E900-4977-A0BB-BDEA2A37E855}
 		{85F35050-D41A-490C-8A01-729816BF5D3C} = {936BF079-E900-4977-A0BB-BDEA2A37E855}
 		{3ED3F139-E2E6-4D4B-868E-88F68977BAE7} = {936BF079-E900-4977-A0BB-BDEA2A37E855}
+		{1E065213-F0FD-4109-A4B7-4AD891176382} = {936BF079-E900-4977-A0BB-BDEA2A37E855}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A6420F7-C7C9-4BD4-8682-0CB0ACC7A8ED}
