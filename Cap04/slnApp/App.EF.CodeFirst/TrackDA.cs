@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace App.EF.CodeFirst
 {
-    public class TrackDA
+   public  class TrackDA
     {
         private ChinookModel _context;
 
@@ -19,11 +19,29 @@ namespace App.EF.CodeFirst
 
         public IEnumerable<TrackConsulta> GetTrackByName(string name)
         {
-            name = !string.IsNullOrWhiteSpace(name)? $"%{name}%" : "%";
+            name = !string.IsNullOrWhiteSpace(name) ? $"%{name}%" : "%";
             return _context.Database
                 .SqlQuery<TrackConsulta>("usp_GetTrack @name",
-                new SqlParameter("@name",name)
+                new SqlParameter("@name", name)
                 ).ToList();
+
+        }
+        public IEnumerable<TrackConsulta> GetTrackByNameLinQ(string name)
+        {
+            name = name ?? "";
+
+            var q = from a in _context.Track
+                    join b in _context.Album on a.AlbumId equals b.AlbumId
+                    where a.Name.Contains(name)
+                    select new TrackConsulta
+                    {
+                        TrackId = a.TrackId,
+                        TrackName = a.Name,
+                        AlbumId = a.AlbumId,
+                        Title = b.Title
+                    };
+
+            return q.ToList();
 
         }
     }

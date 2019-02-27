@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>App.EF.CodeFirst</RootNamespace>
     <AssemblyName>App.EF.CodeFirst</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -52,7 +53,9 @@
   <ItemGroup>
     <Compile Include="ArtistDA.cs" />
     <Compile Include="ChinookModel.cs" />
+    <Compile Include="GenreDA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrackDA.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -62,6 +65,10 @@
     <ProjectReference Include="..\App.EF.CodeFirst.Entities\App.EF.CodeFirst.Entities.csproj">
       <Project>{85f35050-d41a-490c-8a01-729816bf5d3c}</Project>
       <Name>App.EF.CodeFirst.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App.EF.Entities.Query\App.EF.Entities.Query.csproj">
+      <Project>{1e065213-f0fd-4109-a4b7-4ad891176382}</Project>
+      <Name>App.EF.Entities.Query</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
