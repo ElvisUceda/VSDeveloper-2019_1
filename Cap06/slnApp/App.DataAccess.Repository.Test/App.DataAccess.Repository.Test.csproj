@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{012D05EA-02B4-49C4-A7E5-13D15445443A}</ProjectGuid>
+    <ProjectGuid>{4978D872-EB31-45E6-8A00-1C68D84145E7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>App.DataAccess.Repository.Test</RootNamespace>
@@ -56,7 +56,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="ArtistRepositoryTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -65,15 +65,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\App.DataAccess.Repository.Interface\App.DataAccess.Repository.Interface.csproj">
-      <Project>{12554251-33b9-4234-b6d8-201b7e2e5c57}</Project>
+      <Project>{b4464098-9c10-4cd4-ad14-b70ec4ae3b85}</Project>
       <Name>App.DataAccess.Repository.Interface</Name>
     </ProjectReference>
-    <ProjectReference Include="..\App.DataAcce\App.DataAccess.Repository.csproj">
-      <Project>{df81fc4e-0eb4-405b-b251-6d9f16420ec4}</Project>
+    <ProjectReference Include="..\App.DataAccess.Repository\App.DataAccess.Repository.csproj">
+      <Project>{97539bc9-5797-4247-bb93-2346b9c5fc97}</Project>
       <Name>App.DataAccess.Repository</Name>
     </ProjectReference>
     <ProjectReference Include="..\App.Entities.Base\App.Entities.Base.csproj">
-      <Project>{13453f55-080d-411b-b088-06308ebe4f44}</Project>
+      <Project>{cd0d1bea-456c-42bf-88ef-a304522db1ae}</Project>
       <Name>App.Entities.Base</Name>
     </ProjectReference>
   </ItemGroup>

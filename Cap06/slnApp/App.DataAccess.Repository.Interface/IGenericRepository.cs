@@ -8,13 +8,11 @@ using System.Threading.Tasks;
 namespace App.DataAccess.Repository.Interface
 {
     public interface IGenericRepository<TEntity>
-        where TEntity : class
+        where TEntity:class
     {
-        void Add(TEntity entity); 
+        void Add(TEntity entity);
 
-       
-
-        int Count(); // devuelve un entero
+        int Count();
 
         TEntity GetById<TId>(TId id);
 
@@ -23,6 +21,7 @@ namespace App.DataAccess.Repository.Interface
         void Update(TEntity entity);
 
         void Remove(TEntity entity);
+
 
     }
 }

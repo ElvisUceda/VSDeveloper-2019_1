@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace App.DataAccess.Repository.Interface
 {
-    public interface IAlbumRepository : IGenericRepository<Album>
+    public interface IAlbumRepository: IGenericRepository<Album>
     {
-
     }
 }
