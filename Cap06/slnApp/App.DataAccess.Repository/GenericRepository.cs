@@ -3,8 +3,10 @@ using App.Entities.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.Entity;
 
 namespace App.DataAccess.Repository
 {
@@ -12,11 +14,40 @@ namespace App.DataAccess.Repository
         where TEntity:class
     {
 
-        private AppDataModel _context;
+        protected readonly DbContext _context;
 
-        public GenericRepository()
+        public GenericRepository(DbContext pContext)
         {
-            _context = new AppDataModel();
+            _context = pContext; 
+        }
+
+        // Para hacer filtros genericos
+        public IEnumerable<TEntity> GetAll(
+            Expression<Func<TEntity, bool>> filter = null,
+            Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
+            string includeProperties = ""
+            )
+        {
+            IQueryable<TEntity> query = _context.Set<TEntity>();
+             if(filter !=null)
+            {
+                query = query.Where(filter);
+            }
+            foreach (var includeProperty in includeProperties
+                .Split(new char[] { ',' }
+                ,StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(includeProperty);
+            }
+                if (orderBy !=null)
+            {
+                return orderBy(query).ToList();
+
+            }
+            else
+            {
+                return query.ToList();
+            }
         }
 
         public void Add(TEntity entity)
@@ -65,6 +96,13 @@ namespace App.DataAccess.Repository
             //Se confirma la transaccion
             var result = _context.SaveChanges();
             
+        }
+
+        public TEntity FindEntity<TId>(Expression<Func<TEntity, bool>> filter)
+        {
+            return
+                _context.Set<TEntity>().Where(filter).FirstOrDefault();
+           
         }
     }
 }

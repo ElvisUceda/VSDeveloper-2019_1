@@ -47,3 +47,10 @@ C:\vsdeveloper2017\LabGitHub\Cap04\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.U
 C:\vsdeveloper2017\LabGitHub\Cap04\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csproj.CopyComplete
 C:\vsdeveloper2017\LabGitHub\Cap04\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.exe
 C:\vsdeveloper2017\LabGitHub\Cap04\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.pdb
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap06\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csprojAssemblyReference.cache
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap06\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.Form1.resources
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap06\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.Properties.Resources.resources
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap06\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csproj.GenerateResource.cache
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap06\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap06\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.exe
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap06\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.pdb

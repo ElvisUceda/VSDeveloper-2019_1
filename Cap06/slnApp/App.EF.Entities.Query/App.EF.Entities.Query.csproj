@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TrackAll.cs" />
     <Compile Include="TrackConsulta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

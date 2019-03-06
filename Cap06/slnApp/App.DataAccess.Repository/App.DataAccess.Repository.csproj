@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>App.DataAccess.Repository</RootNamespace>
     <AssemblyName>App.DataAccess.Repository</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -53,6 +53,8 @@
   <ItemGroup>
     <Compile Include="AlbumRepository.cs" />
     <Compile Include="AppDataModel.cs" />
+    <Compile Include="AppUnitOfWorks.cs" />
+    <Compile Include="TrackRepository.cs" />
     <Compile Include="GenericRepository.cs" />
     <Compile Include="ArtistRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,6 +71,10 @@
     <ProjectReference Include="..\App.Entities.Base\App.Entities.Base.csproj">
       <Project>{cd0d1bea-456c-42bf-88ef-a304522db1ae}</Project>
       <Name>App.Entities.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App.Entities.Queries\App.Entities.Queries.csproj">
+      <Project>{18accdf8-b604-4e34-ab04-85f11a75852a}</Project>
+      <Name>App.Entities.Queries</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
