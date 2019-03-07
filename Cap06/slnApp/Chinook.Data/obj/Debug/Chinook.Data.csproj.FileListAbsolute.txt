@@ -45,3 +45,15 @@ C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap06\slnApp\Chinook.Da
 C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap06\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csproj.CoreCompileInputs.cache
 C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap06\slnApp\Chinook.Data\obj\Debug\Chinook.Data.dll
 C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap06\slnApp\Chinook.Data\obj\Debug\Chinook.Data.pdb
+D:\LabGitHub\Cap06\slnApp\Chinook.Data\bin\Debug\Chinook.Data.dll.config
+D:\LabGitHub\Cap06\slnApp\Chinook.Data\bin\Debug\Chinook.Data.dll
+D:\LabGitHub\Cap06\slnApp\Chinook.Data\bin\Debug\Chinook.Data.pdb
+D:\LabGitHub\Cap06\slnApp\Chinook.Data\bin\Debug\Chinook.Entities.dll
+D:\LabGitHub\Cap06\slnApp\Chinook.Data\bin\Debug\Dapper.dll
+D:\LabGitHub\Cap06\slnApp\Chinook.Data\bin\Debug\Chinook.Entities.pdb
+D:\LabGitHub\Cap06\slnApp\Chinook.Data\bin\Debug\Dapper.xml
+D:\LabGitHub\Cap06\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csprojAssemblyReference.cache
+D:\LabGitHub\Cap06\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csproj.CoreCompileInputs.cache
+D:\LabGitHub\Cap06\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csproj.CopyComplete
+D:\LabGitHub\Cap06\slnApp\Chinook.Data\obj\Debug\Chinook.Data.dll
+D:\LabGitHub\Cap06\slnApp\Chinook.Data\obj\Debug\Chinook.Data.pdb
