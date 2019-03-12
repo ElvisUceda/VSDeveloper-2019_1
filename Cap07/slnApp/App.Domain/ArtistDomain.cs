@@ -1,4 +1,4 @@
-﻿//using App.DataAccess.Repository.Interface;
+﻿using App.DataAccess.Repository;
 using App.Domain.Interfaces;
 using App.Entities.Base;
 using System;
@@ -13,11 +13,13 @@ namespace App.Domain
     {
         public IEnumerable<Artist> GetArtists()
         {
-            IEnumerable<Artist> result = new List<Artist>()
-           using (var uw = new IAppUnitOfWorks()
+            IEnumerable<Artist> result = new List<Artist>();
+
+            using(var uw = new AppUnitOfWork())
             {
                 result = uw.ArtistRepository.GetAll();
             }
+
             return result;
         }
     }

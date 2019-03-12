@@ -4,14 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{83B804E6-1E47-4CA3-9CC1-40DF889C5A0C}</ProjectGuid>
+    <ProjectGuid>{CFA6B4DB-00C0-43E5-AD61-6759223B282C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>App.Domain</RootNamespace>
     <AssemblyName>App.Domain</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -54,12 +55,16 @@
       <Name>App.DataAccess.Repository</Name>
     </ProjectReference>
     <ProjectReference Include="..\App.Domain.Interfaces\App.Domain.Interfaces.csproj">
-      <Project>{3AE3FC42-6BB4-4107-85D0-F34AC81D20DE}</Project>
+      <Project>{96F6FB65-1A14-45E2-A4FB-D440CF193B33}</Project>
       <Name>App.Domain.Interfaces</Name>
     </ProjectReference>
     <ProjectReference Include="..\App.Entities.Base\App.Entities.Base.csproj">
-      <Project>{CD0D1BEA-456C-42BF-88EF-A304522DB1AE}</Project>
+      <Project>{cd0d1bea-456c-42bf-88ef-a304522db1ae}</Project>
       <Name>App.Entities.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App.Entities.Queries\App.Entities.Queries.csproj">
+      <Project>{c69ccc6c-a764-4e87-bbe8-e142d38af759}</Project>
+      <Name>App.Entities.Queries</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

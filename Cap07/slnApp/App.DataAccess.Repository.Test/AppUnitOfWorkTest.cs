@@ -6,28 +6,25 @@ using App.DataAccess.Repository.Interface;
 
 namespace App.DataAccess.Repository.Test
 {
-    
+    /// <summary>
+    /// Descripción resumida de AppUnitOfWorkTest
+    /// </summary>
     [TestClass]
     public class AppUnitOfWorkTest
     {
-       // IAppUnitOfWorks unitOfWork;
-
-        //public AppUnitOfWorkTest()
-        //{
-           
-        //}
         [TestMethod]
-        public void ExiteArtistas()
+        public void ExistenArtistas()
         {
-            using (var unitOfWork = new AppUnitOfWorks())
+            using (var unitOfWork = new AppUnitOfWork())
             {
-                var canRows = unitOfWork.artistRepository.Count();
+                var cantRows = unitOfWork.ArtistRepository.Count();
 
                 unitOfWork.Complete();
 
-                Assert.IsTrue(canRows > 0);
-
+                Assert.IsTrue(cantRows > 0);
             }
         }
+
+        
     }
 }

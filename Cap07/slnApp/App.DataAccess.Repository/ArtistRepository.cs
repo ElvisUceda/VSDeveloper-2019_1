@@ -11,8 +11,7 @@ namespace App.DataAccess.Repository
 {
     public class ArtistRepository : GenericRepository<Artist>, IArtistRepository
     {
-
-       public ArtistRepository(DbContext context): base(context)
+        public ArtistRepository(DbContext context):base(context)
         {
 
         }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.EF.Entities.Query
+namespace App.Entities.Queries
 {
     public class TrackAll
     {

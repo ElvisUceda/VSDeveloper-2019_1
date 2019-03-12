@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>App.DataAccess.Repository</RootNamespace>
     <AssemblyName>App.DataAccess.Repository</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -51,9 +51,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AlbumRepository.cs" />
     <Compile Include="AppDataModel.cs" />
-    <Compile Include="AppUnitOfWorks.cs" />
+    <Compile Include="AppUnitOfWork.cs" />
     <Compile Include="TrackRepository.cs" />
     <Compile Include="GenericRepository.cs" />
     <Compile Include="ArtistRepository.cs" />
@@ -73,7 +72,7 @@
       <Name>App.Entities.Base</Name>
     </ProjectReference>
     <ProjectReference Include="..\App.Entities.Queries\App.Entities.Queries.csproj">
-      <Project>{18accdf8-b604-4e34-ab04-85f11a75852a}</Project>
+      <Project>{c69ccc6c-a764-4e87-bbe8-e142d38af759}</Project>
       <Name>App.Entities.Queries</Name>
     </ProjectReference>
   </ItemGroup>

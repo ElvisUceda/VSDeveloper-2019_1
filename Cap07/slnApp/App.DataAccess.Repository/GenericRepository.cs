@@ -18,36 +18,7 @@ namespace App.DataAccess.Repository
 
         public GenericRepository(DbContext pContext)
         {
-            _context = pContext; 
-        }
-
-        // Para hacer filtros genericos
-        public IEnumerable<TEntity> GetAll(
-            Expression<Func<TEntity, bool>> filter = null,
-            Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
-            string includeProperties = ""
-            )
-        {
-            IQueryable<TEntity> query = _context.Set<TEntity>();
-             if(filter !=null)
-            {
-                query = query.Where(filter);
-            }
-            foreach (var includeProperty in includeProperties
-                .Split(new char[] { ',' }
-                ,StringSplitOptions.RemoveEmptyEntries))
-            {
-                query = query.Include(includeProperty);
-            }
-                if (orderBy !=null)
-            {
-                return orderBy(query).ToList();
-
-            }
-            else
-            {
-                return query.ToList();
-            }
+            _context = pContext;
         }
 
         public void Add(TEntity entity)
@@ -65,11 +36,43 @@ namespace App.DataAccess.Repository
             return _context.Set<TEntity>().Count();
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public TEntity FindEntity<TId>(Expression<Func<TEntity, bool>> filter)
+        {
+            return
+                    _context.Set<TEntity>().Where(filter).FirstOrDefault();
+        }
+
+        public IEnumerable<TEntity> GetAll(
+            Expression<Func<TEntity, bool>> filter = null,
+            Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
+            string includeProperties = ""
+            )
         {
             IQueryable<TEntity> query = _context.Set<TEntity>();
 
-            return query.ToList();
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+
+            foreach (var includeProperty in includeProperties
+                   .Split(new char[] { ',' }
+                    ,StringSplitOptions.RemoveEmptyEntries))
+            {
+                query = query.Include(includeProperty);
+            }
+
+
+            if (orderBy != null)
+            {
+                return orderBy(query).ToList();
+            }
+            else
+            {
+                return query.ToList();
+            }
+
+
         }
 
         public TEntity GetById<TId>(TId id)
@@ -96,13 +99,6 @@ namespace App.DataAccess.Repository
             //Se confirma la transaccion
             var result = _context.SaveChanges();
             
-        }
-
-        public TEntity FindEntity<TId>(Expression<Func<TEntity, bool>> filter)
-        {
-            return
-                _context.Set<TEntity>().Where(filter).FirstOrDefault();
-           
         }
     }
 }

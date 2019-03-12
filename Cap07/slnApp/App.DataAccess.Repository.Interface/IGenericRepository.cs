@@ -21,11 +21,9 @@ namespace App.DataAccess.Repository.Interface
 
         IEnumerable<TEntity> GetAll(
             Expression<Func<TEntity,bool>> filter=null,
-            Func<IQueryable<TEntity>,IOrderedQueryable<TEntity>>orderBy=null,
+            Func<IQueryable<TEntity>,IOrderedQueryable<TEntity>> orderBy = null,
             string includeProperties=""
             );
-
-        
 
         void Update(TEntity entity);
 

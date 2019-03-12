@@ -9,17 +9,15 @@ namespace App.DataAccess.Repository.Test
     [TestClass]
     public class ArtistRepositoryTest
     {
-
         private readonly DbContext _context;
-
         public ArtistRepositoryTest()
         {
             _context = new AppDataModel();
         }
+
         [TestMethod]
         public void Count()
         {
-
             IArtistRepository repository = new ArtistRepository(_context);
             int count = repository.Count();
 
@@ -30,8 +28,8 @@ namespace App.DataAccess.Repository.Test
         public void GetAll()
         {
             IArtistRepository repository = new ArtistRepository(_context);
-            var data = repository.GetAll(item => item.Name.Contains("Aero")
-                ,item => item.OrderBy(item2 => item2.Name));
+            var data = repository.GetAll(item=>item.Name.Contains("Aero")
+            ,item=>item.OrderBy(item2=>item2.Name));
 
             Assert.IsTrue(data.Count() > 0);
         }
