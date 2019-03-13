@@ -11,13 +11,15 @@ namespace App.Domain
 {
     public class ArtistDomain : IArtistDomain
     {
-        public IEnumerable<Artist> GetArtists()
+        public IEnumerable<Artist> GetArtists( string nombre)
         {
             IEnumerable<Artist> result = new List<Artist>();
 
             using(var uw = new AppUnitOfWork())
             {
-                result = uw.ArtistRepository.GetAll();
+                result = uw.ArtistRepository.GetAll(
+                        item=>item.Name.Contains(nombre)
+                        );
             }
 
             return result;

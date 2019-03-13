@@ -20,3 +20,14 @@ C:\vsdeveloper2017\LabGitHub\Cap07\slnApp\App.DataAccess.Repository.Interface\bi
 C:\vsdeveloper2017\LabGitHub\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Base.pdb
 C:\vsdeveloper2017\LabGitHub\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Queries.pdb
 C:\vsdeveloper2017\LabGitHub\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.csproj.CopyComplete
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.DataAccess.Repository.Interface.dll
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.DataAccess.Repository.Interface.pdb
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Base.dll
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Queries.dll
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Base.pdb
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Queries.pdb
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.csprojAssemblyReference.cache
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.csproj.CopyComplete
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.dll
+C:\Users\VS2017-DEV\Desktop\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.pdb
