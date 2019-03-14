@@ -10,12 +10,12 @@ namespace App.DataAccess.Repository.Test
     [TestClass]
     public class AppUnitOfWorkTest
     {
-       // IAppUnitOfWorks unitOfWork;
+        IAppUnitOfWorks unitOfWork;
 
-        //public AppUnitOfWorkTest()
-        //{
-           
-        //}
+        public AppUnitOfWorkTest()
+        {
+
+        }
         [TestMethod]
         public void ExiteArtistas()
         {
