@@ -1,0 +1,11 @@
+D:\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Release\App.DataAccess.Repository.Interface.dll
+D:\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Release\App.DataAccess.Repository.Interface.pdb
+D:\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Release\App.Entities.Base.dll
+D:\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Release\App.Entities.Queries.dll
+D:\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Release\App.Entities.Base.pdb
+D:\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Release\App.Entities.Queries.pdb
+D:\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Release\App.DataAccess.Repository.Interface.csprojAssemblyReference.cache
+D:\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Release\App.DataAccess.Repository.Interface.csproj.CoreCompileInputs.cache
+D:\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Release\App.DataAccess.Repository.Interface.csproj.CopyComplete
+D:\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Release\App.DataAccess.Repository.Interface.dll
+D:\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Release\App.DataAccess.Repository.Interface.pdb

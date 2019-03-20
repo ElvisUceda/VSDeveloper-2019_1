@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\VSDeveloper-2019_1\Cap07\publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/App.DataAccess.Repository.dll">
+      <publishTime>03/19/2019 21:04:10</publishTime>
+    </File>
+    <File Include="bin/App.DataAccess.Repository.dll.config">
+      <publishTime>03/19/2019 18:47:10</publishTime>
+    </File>
+    <File Include="bin/App.DataAccess.Repository.Interface.dll">
+      <publishTime>03/19/2019 21:04:09</publishTime>
+    </File>
+    <File Include="bin/App.DataAccess.Repository.Interface.pdb">
+      <publishTime>03/19/2019 21:04:09</publishTime>
+    </File>
+    <File Include="bin/App.DataAccess.Repository.pdb">
+      <publishTime>03/19/2019 21:04:10</publishTime>
+    </File>
+    <File Include="bin/App.Domain.dll">
+      <publishTime>03/19/2019 21:04:10</publishTime>
+    </File>
+    <File Include="bin/App.Domain.Interfaces.dll">
+      <publishTime>03/19/2019 21:04:10</publishTime>
+    </File>
+    <File Include="bin/App.Domain.Interfaces.pdb">
+      <publishTime>03/19/2019 21:04:10</publishTime>
+    </File>
+    <File Include="bin/App.Domain.pdb">
+      <publishTime>03/19/2019 21:04:10</publishTime>
+    </File>
+    <File Include="bin/App.Entities.Base.dll">
+      <publishTime>03/19/2019 21:04:08</publishTime>
+    </File>
+    <File Include="bin/App.Entities.Base.pdb">
+      <publishTime>03/19/2019 21:04:08</publishTime>
+    </File>
+    <File Include="bin/App.Entities.Queries.dll">
+      <publishTime>03/19/2019 21:04:08</publishTime>
+    </File>
+    <File Include="bin/App.Entities.Queries.pdb">
+      <publishTime>03/19/2019 21:04:08</publishTime>
+    </File>
+    <File Include="bin/App.Services.WCF.dll">
+      <publishTime>03/19/2019 21:04:10</publishTime>
+    </File>
+    <File Include="bin/App.Services.WCF.dll.config">
+      <publishTime>03/19/2019 18:47:10</publishTime>
+    </File>
+    <File Include="bin/App.Services.WCF.Interfaces.dll">
+      <publishTime>03/19/2019 21:04:09</publishTime>
+    </File>
+    <File Include="bin/App.Services.WCF.Interfaces.pdb">
+      <publishTime>03/19/2019 21:04:09</publishTime>
+    </File>
+    <File Include="bin/App.Services.WCF.pdb">
+      <publishTime>03/19/2019 21:04:10</publishTime>
+    </File>
+    <File Include="bin/App.Services.WCFApp.dll">
+      <publishTime>03/19/2019 22:01:00</publishTime>
+    </File>
+    <File Include="bin/App.Services.WCFApp.pdb">
+      <publishTime>03/19/2019 22:01:00</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/19/2019 18:47:11</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/19/2019 18:47:10</publishTime>
+    </File>
+    <File Include="MantenimientosServices.svc">
+      <publishTime>03/19/2019 18:47:10</publishTime>
+    </File>
+    <File Include="ReportesServices.svc">
+      <publishTime>03/19/2019 18:47:10</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>03/19/2019 21:23:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/19/2019 22:01:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
