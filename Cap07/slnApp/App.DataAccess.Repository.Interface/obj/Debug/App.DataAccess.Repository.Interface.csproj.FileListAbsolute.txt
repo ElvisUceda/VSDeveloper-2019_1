@@ -42,3 +42,14 @@ D:\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Debug
 D:\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.csproj.CopyComplete
 D:\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.dll
 D:\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.pdb
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.DataAccess.Repository.Interface.dll
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.DataAccess.Repository.Interface.pdb
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Base.dll
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Queries.dll
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Base.pdb
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Queries.pdb
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.csprojAssemblyReference.cache
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.csproj.CoreCompileInputs.cache
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.csproj.CopyComplete
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.dll
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.pdb

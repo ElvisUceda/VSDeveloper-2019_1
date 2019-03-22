@@ -4,3 +4,9 @@ D:\VSDeveloper-2019_1\Cap07\slnApp\App.Entities.Base\obj\Release\App.Entities.Ba
 D:\VSDeveloper-2019_1\Cap07\slnApp\App.Entities.Base\obj\Release\App.Entities.Base.csproj.CoreCompileInputs.cache
 D:\VSDeveloper-2019_1\Cap07\slnApp\App.Entities.Base\obj\Release\App.Entities.Base.dll
 D:\VSDeveloper-2019_1\Cap07\slnApp\App.Entities.Base\obj\Release\App.Entities.Base.pdb
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.Entities.Base\bin\Release\App.Entities.Base.dll
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.Entities.Base\bin\Release\App.Entities.Base.pdb
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.Entities.Base\obj\Release\App.Entities.Base.csprojAssemblyReference.cache
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.Entities.Base\obj\Release\App.Entities.Base.csproj.CoreCompileInputs.cache
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.Entities.Base\obj\Release\App.Entities.Base.dll
+D:\LabGitHub\VSDeveloper-2019_1\Cap07\slnApp\App.Entities.Base\obj\Release\App.Entities.Base.pdb
