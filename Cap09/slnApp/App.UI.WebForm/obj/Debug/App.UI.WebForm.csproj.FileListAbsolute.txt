@@ -147,8 +147,8 @@ D:\LabGitHub\Cap09\slnApp\App.UI.WebForm\bin\Microsoft.AspNet.TelemetryCorrelati
 D:\LabGitHub\Cap09\slnApp\App.UI.WebForm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\LabGitHub\Cap09\slnApp\App.UI.WebForm\bin\es\System.Web.Optimization.resources.dll
 D:\LabGitHub\Cap09\slnApp\App.UI.WebForm\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
-D:\LabGitHub\Cap09\slnApp\App.UI.WebForm\obj\Debug\App.UI.WebForm.csprojResolveAssemblyReference.cache
 D:\LabGitHub\Cap09\slnApp\App.UI.WebForm\obj\Debug\App.UI.WebForm.csproj.CoreCompileInputs.cache
 D:\LabGitHub\Cap09\slnApp\App.UI.WebForm\obj\Debug\App.UI.WebForm.csproj.CopyComplete
 D:\LabGitHub\Cap09\slnApp\App.UI.WebForm\obj\Debug\App.UI.WebForm.dll
 D:\LabGitHub\Cap09\slnApp\App.UI.WebForm\obj\Debug\App.UI.WebForm.pdb
+D:\LabGitHub\Cap09\slnApp\App.UI.WebForm\obj\Debug\App.UI.WebForm.csprojAssemblyReference.cache
