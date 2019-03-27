@@ -1,29 +1,28 @@
-﻿div
-{
+﻿div {
     height: 250px;
     width: 400px;
-    border: 1px solid double;
+    border: 1px solid blue;
     margin-bottom: 20px;
     padding-top: 20px;
     padding-left: 20px;
-    background-image: url('Image/paisaje.jpg');
+    background-image: url('images/paisaje.jpg');
     background-size:cover;
-    color:#808080;
+    color:#e6f2f7;
 }
 
- .article 
- {
+.article {
+    height:200px;
     border: 1px solid red;
-    border: 1px solid red;
-    background-color:#c24a4a;
+    background-color:#516eb1;
     background-image:none;
-    color:#652568
+    color:#e6f2f7
 }
+
 #listadoId
 {
-   
     margin-top:20px;
 }
+
 #listadoId table,th,td{
     border-color: brown;
     border-style: solid;

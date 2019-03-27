@@ -1,18 +1,16 @@
-﻿using System;
+﻿using App.Entities.Queries;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
-using System.Runtime.Serialization;
-using System.ServiceModel;
-using App.Entities.Queries;
 
-namespace App.Services.WCF.Interfaces.Reportes
+namespace App.Services.WCF.Interfaces
 {
-  
-    public partial interface IReportesServices
+    public partial interface IReporteServices
     {
         [OperationContract]
-         IEnumerable<TrackAll> GetTrackAlls(string trackName);
+        IEnumerable<TrackAll> GetTrackAll(string trackName);
     }
 }

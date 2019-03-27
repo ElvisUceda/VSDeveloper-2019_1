@@ -10,7 +10,7 @@ namespace App.Domain.Interfaces
 {
     public interface ITrackDomain
     {
-        IEnumerable<TrackAll> GetTrack(string nombre);        
+        IEnumerable<TrackAll> GetTracksAll(string nombre);
 
     }
 }

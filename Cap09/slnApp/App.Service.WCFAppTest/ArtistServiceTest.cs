@@ -13,6 +13,7 @@ namespace App.Service.WCFAppTest
             var lista = client.GetArtistAll("a");
 
             Assert.IsTrue(lista.Count > 0);
+
         }
     }
 }

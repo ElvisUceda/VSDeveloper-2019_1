@@ -11,12 +11,13 @@ using System.Threading.Tasks;
 namespace App.Domain
 {
     public class TrackDomain : ITrackDomain
-    {
-        public IEnumerable<TrackAll> GetTrack( string nombre)
+    {       
+
+        public IEnumerable<TrackAll> GetTracksAll(string nombre)
         {
             IEnumerable<TrackAll> result = new List<TrackAll>();
 
-            using(var uw = new AppUnitOfWork())
+            using (var uw = new AppUnitOfWork())
             {
                 result = uw.TrackRepository.GetTracksAll(nombre);
             }

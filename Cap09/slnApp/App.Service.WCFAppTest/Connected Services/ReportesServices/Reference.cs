@@ -267,49 +267,49 @@ namespace App.Service.WCFAppTest.ReportesServices {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ReportesServices.IReportesServices")]
-    public interface IReportesServices {
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ReportesServices.IReporteServices")]
+    public interface IReporteServices {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IReportesServices/GetTrackAlls", ReplyAction="http://tempuri.org/IReportesServices/GetTrackAllsResponse")]
-        System.Collections.Generic.List<App.Service.WCFAppTest.ReportesServices.TrackAll> GetTrackAlls(string trackName);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IReporteServices/GetTrackAll", ReplyAction="http://tempuri.org/IReporteServices/GetTrackAllResponse")]
+        System.Collections.Generic.List<App.Service.WCFAppTest.ReportesServices.TrackAll> GetTrackAll(string trackName);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IReportesServices/GetTrackAlls", ReplyAction="http://tempuri.org/IReportesServices/GetTrackAllsResponse")]
-        System.Threading.Tasks.Task<System.Collections.Generic.List<App.Service.WCFAppTest.ReportesServices.TrackAll>> GetTrackAllsAsync(string trackName);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IReporteServices/GetTrackAll", ReplyAction="http://tempuri.org/IReporteServices/GetTrackAllResponse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<App.Service.WCFAppTest.ReportesServices.TrackAll>> GetTrackAllAsync(string trackName);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IReportesServicesChannel : App.Service.WCFAppTest.ReportesServices.IReportesServices, System.ServiceModel.IClientChannel {
+    public interface IReporteServicesChannel : App.Service.WCFAppTest.ReportesServices.IReporteServices, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class ReportesServicesClient : System.ServiceModel.ClientBase<App.Service.WCFAppTest.ReportesServices.IReportesServices>, App.Service.WCFAppTest.ReportesServices.IReportesServices {
+    public partial class ReporteServicesClient : System.ServiceModel.ClientBase<App.Service.WCFAppTest.ReportesServices.IReporteServices>, App.Service.WCFAppTest.ReportesServices.IReporteServices {
         
-        public ReportesServicesClient() {
+        public ReporteServicesClient() {
         }
         
-        public ReportesServicesClient(string endpointConfigurationName) : 
+        public ReporteServicesClient(string endpointConfigurationName) : 
                 base(endpointConfigurationName) {
         }
         
-        public ReportesServicesClient(string endpointConfigurationName, string remoteAddress) : 
+        public ReporteServicesClient(string endpointConfigurationName, string remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public ReportesServicesClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public ReporteServicesClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public ReportesServicesClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public ReporteServicesClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
         }
         
-        public System.Collections.Generic.List<App.Service.WCFAppTest.ReportesServices.TrackAll> GetTrackAlls(string trackName) {
-            return base.Channel.GetTrackAlls(trackName);
+        public System.Collections.Generic.List<App.Service.WCFAppTest.ReportesServices.TrackAll> GetTrackAll(string trackName) {
+            return base.Channel.GetTrackAll(trackName);
         }
         
-        public System.Threading.Tasks.Task<System.Collections.Generic.List<App.Service.WCFAppTest.ReportesServices.TrackAll>> GetTrackAllsAsync(string trackName) {
-            return base.Channel.GetTrackAllsAsync(trackName);
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<App.Service.WCFAppTest.ReportesServices.TrackAll>> GetTrackAllAsync(string trackName) {
+            return base.Channel.GetTrackAllAsync(trackName);
         }
     }
 }

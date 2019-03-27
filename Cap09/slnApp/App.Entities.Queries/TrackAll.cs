@@ -10,7 +10,7 @@ namespace App.Entities.Queries
     [DataContract]
     public class TrackAll
     {
-         [DataMember]
+        [DataMember]
         public int TrackId { get; set; }
         [DataMember]
         public string TrackName { get; set; }
