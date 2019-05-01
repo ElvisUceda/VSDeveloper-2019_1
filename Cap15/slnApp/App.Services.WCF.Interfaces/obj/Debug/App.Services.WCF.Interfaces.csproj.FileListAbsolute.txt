@@ -42,3 +42,14 @@ D:\GitHubLab\Cap10-MVC\slnApp\App.Services.WCF.Interfaces\obj\Debug\App.Services
 D:\GitHubLab\Cap10-MVC\slnApp\App.Services.WCF.Interfaces\obj\Debug\App.Services.WCF.Interfaces.csproj.CopyComplete
 D:\GitHubLab\Cap10-MVC\slnApp\App.Services.WCF.Interfaces\obj\Debug\App.Services.WCF.Interfaces.dll
 D:\GitHubLab\Cap10-MVC\slnApp\App.Services.WCF.Interfaces\obj\Debug\App.Services.WCF.Interfaces.pdb
+D:\Lab3004GitHub\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Debug\App.Services.WCF.Interfaces.dll
+D:\Lab3004GitHub\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Debug\App.Services.WCF.Interfaces.pdb
+D:\Lab3004GitHub\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Debug\App.Entities.Base.dll
+D:\Lab3004GitHub\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Debug\App.Entities.Queries.dll
+D:\Lab3004GitHub\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Debug\App.Entities.Base.pdb
+D:\Lab3004GitHub\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Debug\App.Entities.Queries.pdb
+D:\Lab3004GitHub\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Debug\App.Services.WCF.Interfaces.csprojAssemblyReference.cache
+D:\Lab3004GitHub\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Debug\App.Services.WCF.Interfaces.csproj.CoreCompileInputs.cache
+D:\Lab3004GitHub\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Debug\App.Services.WCF.Interfaces.csproj.CopyComplete
+D:\Lab3004GitHub\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Debug\App.Services.WCF.Interfaces.dll
+D:\Lab3004GitHub\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Debug\App.Services.WCF.Interfaces.pdb

@@ -7,7 +7,20 @@
 <body>
 
     <button type="button" onclick=" MostrarTotal()">Click Aqui</button>
+
     <button type="button" onclick=" Agregar()">Agregar</button>
+
+    <button type="button" onclick=" Remover()">Remover</button>
+
+    <br />
+
+    <input onkeypress="onKeypressFunction(event)"
+           placeholder="Presione la tecla ENTER" />
+
+    <br />
+
+    <input onkeyup="onKeypUpFunction(event)"
+           placeholder="Presione la tecla Ctrl+v" />
 
     <script type="text/javascript">
 
@@ -48,12 +61,35 @@
 
             alert("Cantidad de registros: " + carrito.length);
 
+            for (i = 0; i < carrito.length; i++) {
+
+                alert(carrito[i].nombre);
+            }
+
         }
+
+        function Remover() {
+            //Removiendo elementos en javascript
+            carrito.splice(0, 1);
+        }
+
 
 
     </script>
 
+    <script>
+        function onKeypressFunction(e) {
+            if (e.keyCode == 13 || e.which == 13) {
+                alert("Presionó la tecla ENTER");
+            }
+        }
 
+        function onKeyUpFunction(e) {
+            if (e.CtrlKey && e.keyCode == 86) {
+                alert("Presionó las teclas Ctrl+v");
+            }
+        }
+    </script>
 
 </body>
 </html>
