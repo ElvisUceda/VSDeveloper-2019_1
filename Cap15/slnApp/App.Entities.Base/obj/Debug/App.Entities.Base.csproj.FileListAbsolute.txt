@@ -22,15 +22,3 @@ C:\vsdeveloper2017\LabGitHub\Cap10-MVC\slnApp\App.Entities.Base\obj\Debug\App.En
 C:\vsdeveloper2017\LabGitHub\Cap10-MVC\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.csproj.CoreCompileInputs.cache
 C:\vsdeveloper2017\LabGitHub\Cap10-MVC\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.dll
 C:\vsdeveloper2017\LabGitHub\Cap10-MVC\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.pdb
-D:\GitHubLab\Cap10-MVC\slnApp\App.Entities.Base\bin\Debug\App.Entities.Base.dll
-D:\GitHubLab\Cap10-MVC\slnApp\App.Entities.Base\bin\Debug\App.Entities.Base.pdb
-D:\GitHubLab\Cap10-MVC\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.csprojAssemblyReference.cache
-D:\GitHubLab\Cap10-MVC\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.csproj.CoreCompileInputs.cache
-D:\GitHubLab\Cap10-MVC\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.dll
-D:\GitHubLab\Cap10-MVC\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.pdb
-D:\Lab3004GitHub\Cap15\slnApp\App.Entities.Base\bin\Debug\App.Entities.Base.dll
-D:\Lab3004GitHub\Cap15\slnApp\App.Entities.Base\bin\Debug\App.Entities.Base.pdb
-D:\Lab3004GitHub\Cap15\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.csprojAssemblyReference.cache
-D:\Lab3004GitHub\Cap15\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.csproj.CoreCompileInputs.cache
-D:\Lab3004GitHub\Cap15\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.dll
-D:\Lab3004GitHub\Cap15\slnApp\App.Entities.Base\obj\Debug\App.Entities.Base.pdb

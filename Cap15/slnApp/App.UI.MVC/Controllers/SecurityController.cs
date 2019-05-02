@@ -39,17 +39,18 @@ namespace App.UI.MVC.Controllers
 
                 claims.Add(new Claim("UsuarioID", $"{usuarioFound.UsuarioId}"));
 
-                //Configurando los roles para la implementacion
-                //del mecanismo de autorizacion
+                //**************************************************
+                //Configurando los roles para la implementación
+                //del mecanismo de autorización
                 string[] roles = usuarioFound.Roles.Split(';');
                 foreach(string rol in roles)
                 {
                     claims.Add(new Claim(ClaimTypes.Role, rol));
                 }
+                //***************************************************
+
 
                 var identity = new ClaimsIdentity(claims, "ApplicationCookie");
-
-
 
                 //Llama a los componentes de Owin para iniciar el proceso
                 //de generación de la cookie de autenticación

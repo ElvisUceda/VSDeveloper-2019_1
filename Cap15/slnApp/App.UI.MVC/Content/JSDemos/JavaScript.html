@@ -6,28 +6,30 @@
 </head>
 <body>
 
-    <button type="button" onclick=" MostrarTotal()">Click Aqui</button>
+    <button type="button" onclick="MostrarTotal()">Click Aqui</button>
 
-    <button type="button" onclick=" Agregar()">Agregar</button>
+    <button type="button" onclick="Agregar()">Agregar</button>
 
-    <button type="button" onclick=" Remover()">Remover</button>
+    <button type="button" onclick="Remover()">Remover</button>
 
     <br />
+    <br />
 
-    <input onkeypress="onKeypressFunction(event)"
+    <input onkeypress="onKeyPressFunction(event)"
            placeholder="Presione la tecla ENTER" />
 
     <br />
+    <br />
 
-    <input onkeyup="onKeypUpFunction(event)"
+    <input onkeyup="onKeyUpFunction(event)"
            placeholder="Presione la tecla Ctrl+v" />
 
-    <script type="text/javascript">
 
-        //debugger: Palabra clave en javascript que permite
+    <script type="text/javascript">
+        //debugger:palabra clave en javascript que permite
         //depurar el código
-        debugger;
-        //Ejemplo de creacion de objetos en javascript
+        //debugger;
+        //Ejemplo de creación de objetos en javascript
         var carrito = [];
         var producto = {};
         producto.id = 1;
@@ -35,18 +37,17 @@
         producto.precio = 20.5;
         producto.stock = 100;
         producto.cantidad = 3;
-        /*  producto.subtotal = CalcularSubtotal(producto.precio,
-              producto.cantidad); */
-        producto.CalcularSubtotal = function () {
-
+        /* producto.subtotal = CalcularSubTotal(producto.precio,
+             producto.cantidad);*/
+        producto.CalcularSubTotal = function () {
             var total = this.precio * this.cantidad;
             return total;
-        }
+        };
 
-        var total = producto.CalcularSubtotal();
+        var total = producto.CalcularSubTotal();
 
 
-        function CalcularSubtotal(precio, cantidad) {
+        function CalcularSubTotal(precio, cantidad) {
             var total = precio * cantidad;
 
             return total;
@@ -57,19 +58,19 @@
         }
 
         function Agregar() {
-            carrito.push(producto); //El metodo push agrega elementos al arreglo
+            carrito.push(producto); //El método push agrega elementos al arreglo
 
             alert("Cantidad de registros: " + carrito.length);
 
             for (i = 0; i < carrito.length; i++) {
-
                 alert(carrito[i].nombre);
             }
+
 
         }
 
         function Remover() {
-            //Removiendo elementos en javascript
+            //Removiendo elementos en javacript
             carrito.splice(0, 1);
         }
 
@@ -78,17 +79,18 @@
     </script>
 
     <script>
-        function onKeypressFunction(e) {
+        function onKeyPressFunction(e) {
             if (e.keyCode == 13 || e.which == 13) {
                 alert("Presionó la tecla ENTER");
             }
         }
 
         function onKeyUpFunction(e) {
-            if (e.CtrlKey && e.keyCode == 86) {
-                alert("Presionó las teclas Ctrl+v");
+            if (e.ctrlKey && e.keyCode==86) {
+                alert("Presionón las teclas Ctrl+v");
             }
         }
+
     </script>
 
 </body>

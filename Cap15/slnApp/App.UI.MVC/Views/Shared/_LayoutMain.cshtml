@@ -18,7 +18,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 </head>
 <body>
-
+    
 
     <div id="wrapper">
         <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
@@ -35,9 +35,8 @@
 padding: 15px 50px 5px 50px;
 float: right;
 font-size: 16px;">
-
-               @SecurityHelpers.GetUserFullName() &nbsp;<a href="@Url.Action("SignOut","Security")" class="btn btn-danger square-btn-adjust">Logout</a>
-            </div>
+                
+            @SecurityHelpers.GetUserFullName() &nbsp;<a href="@Url.Action("SignOut","Security")" class="btn btn-danger square-btn-adjust">Logout</a></div>
         </nav>
         <!-- /. NAV TOP  -->
         <nav class="navbar-default navbar-side" role="navigation">
@@ -47,11 +46,11 @@ font-size: 16px;">
                         <img src="~/Content/template/img/find_user.png" class="user-image img-responsive" />
                     </li>
 
-                    @if (SecurityHelpers.IsAdmin()
-                         || SecurityHelpers.IsSupervisor())
+                    @if (SecurityHelpers.IsAdmin() 
+                        || SecurityHelpers.IsSupervisor())
                     {
                         <li>
-                            <a class="active-menu" href="@Url.Action("Listado","Artist")"><i class="fa fa-dashboard fa-3x"></i> Artistas</a>
+                            <a class="active-menu" href="@Url.Action("Listado", "Artist")"><i class="fa fa-dashboard fa-3x"></i> Artistas</a>
                         </li>
                     }
                     <li>

@@ -22,15 +22,15 @@ namespace App.UI.MVC.Common
             return claimValue;
         }
 
-        public static int GetUsuarioID()
+        public static int GetusuarioID()
         {
             var claimValue = GetClaimsByType("UsuarioID").FirstOrDefault()!=null?
-            Convert.ToInt32(GetClaimsByType("UsuarioID").FirstOrDefault().Value):0;
+                     Convert.ToInt32(GetClaimsByType("UsuarioID").FirstOrDefault().Value):0;
 
             return claimValue;
         }
 
-        public static bool ISLogged()
+        public static bool IsLogged()
         {
             return HttpContext.Current.User.Identity.IsAuthenticated;
         }
@@ -44,5 +44,7 @@ namespace App.UI.MVC.Common
         {
             return HttpContext.Current.User.IsInRole("supervisor");
         }
+
+
     }
 }

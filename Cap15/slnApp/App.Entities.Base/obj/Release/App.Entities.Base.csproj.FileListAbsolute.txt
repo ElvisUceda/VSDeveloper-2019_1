@@ -16,9 +16,3 @@ C:\vsdeveloper2017\LabGitHub\Cap10-MVC\slnApp\App.Entities.Base\obj\Release\App.
 C:\vsdeveloper2017\LabGitHub\Cap10-MVC\slnApp\App.Entities.Base\obj\Release\App.Entities.Base.csproj.CoreCompileInputs.cache
 C:\vsdeveloper2017\LabGitHub\Cap10-MVC\slnApp\App.Entities.Base\obj\Release\App.Entities.Base.dll
 C:\vsdeveloper2017\LabGitHub\Cap10-MVC\slnApp\App.Entities.Base\obj\Release\App.Entities.Base.pdb
-D:\GitHubLab\Cap10-MVC\slnApp\App.Entities.Base\bin\Release\App.Entities.Base.dll
-D:\GitHubLab\Cap10-MVC\slnApp\App.Entities.Base\bin\Release\App.Entities.Base.pdb
-D:\GitHubLab\Cap10-MVC\slnApp\App.Entities.Base\obj\Release\App.Entities.Base.csprojAssemblyReference.cache
-D:\GitHubLab\Cap10-MVC\slnApp\App.Entities.Base\obj\Release\App.Entities.Base.csproj.CoreCompileInputs.cache
-D:\GitHubLab\Cap10-MVC\slnApp\App.Entities.Base\obj\Release\App.Entities.Base.dll
-D:\GitHubLab\Cap10-MVC\slnApp\App.Entities.Base\obj\Release\App.Entities.Base.pdb

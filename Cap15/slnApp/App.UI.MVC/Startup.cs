@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web.Helpers;
 using Microsoft.Owin;
@@ -13,8 +14,9 @@ namespace App.UI.MVC
     {
         public void Configuration(IAppBuilder app)
         {
+
             AntiForgeryConfig.UniqueClaimTypeIdentifier =
-                "UsuarioID";
+                    "UsuarioID";
 
             // Para obtener más información sobre cómo configurar la aplicación, visite https://go.microsoft.com/fwlink/?LinkID=316888
             app.UseCookieAuthentication(

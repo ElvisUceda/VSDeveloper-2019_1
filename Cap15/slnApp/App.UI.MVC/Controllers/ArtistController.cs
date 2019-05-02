@@ -11,7 +11,6 @@ namespace App.UI.MVC.Controllers
     [Authorize]
     public class ArtistController : Controller
     {
-
         MantenimientosServices.MantenimientosServicesClient wcfClient = null;
 
         public ArtistController()
@@ -19,7 +18,7 @@ namespace App.UI.MVC.Controllers
             wcfClient = new MantenimientosServices.MantenimientosServicesClient();
 
         }
-       
+
         // GET: Artist
         public ActionResult Index()
         {
@@ -33,8 +32,7 @@ namespace App.UI.MVC.Controllers
             return View();
         }
 
-       
-        [Authorize(Roles ="admin,supervisor")]
+        [Authorize(Roles = "admin,supervisor")]
         public ActionResult Listado(string filtroByNombre)
         {
             

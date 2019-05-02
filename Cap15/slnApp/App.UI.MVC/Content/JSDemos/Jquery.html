@@ -9,13 +9,13 @@
     <form>
         <select id="lenguajes">
             <option value="VB">Visual Basic</option>
-            <option value="CSharp">c#</option>
+            <option value="CSharp">C#</option>
             <option value="Java">Java</option>
         </select>
         <br />
-        <input id="email" type="email" placeholder="Ingresar su email" />
+        <input id="email" type="email" placeholder="Ingresal su email" />
         <br />
-        <input id="fechaNac" type="date" placeholder="Ingresar su fecha de nacimiento " />
+        <input id="fechaNac" type="date" placeholder="Ingresal su fecha de nacimiento" />
         <br />
         <input id="nombres" type="text" placeholder="Ingresar sus nombres" />
         <br />
@@ -27,9 +27,10 @@
             <input id="optM" type="radio" name="genero" value="M" />
         </div>
         <div>
-            <label for="optF">Femenino</label>
+            <label for="optF">Femenimo</label>
             <input id="optF" type="radio" name="genero" value="F" />
         </div>
+
         <br />
 
         <span>Disponibilidad:</span>
@@ -42,9 +43,10 @@
             <input id="chkM" type="checkbox" name="disponible" value="M" />
         </div>
         <div>
-            <label for="chkW">Miercoles</label>
+            <label for="chkW">Míercoles</label>
             <input id="chkW" type="checkbox" name="disponible" value="W" />
         </div>
+
         <br />
         <button id="btnGuardar" type="button">Guardar</button>
     </form>
@@ -54,7 +56,7 @@
         $(document).ready(configInit);
 
         function configInit() {
-            $("#btnGuardar").on("click", guardar)
+            $("#btnGuardar").on("click",guardar)
         }
 
         function guardar() {
@@ -63,28 +65,29 @@
             candidato.languaje = $("#lenguajes").val();
             candidato.email = $("#email").val();
             candidato.fechaNac = $("#fechaNac").val();
-           // candidato.nombres = $("#nombres").val();
+            //candidato.nombres = $("#nombres").val();
             //En javascript
             candidato.nombres = document.getElementById("nombres").value;
             candidato.apellidos = $("#apellidos").val();
             candidato.genero = $("input:radio[name=genero]:checked").val();
-          
-            candidato.disponibilidad = $("input:checkbox[name=disponible]:checked").val();
 
-            debugger;
             var arrDis = [];
             var elemChecked = $("input:checkbox[name=disponible]:checked");
             for (i = 0; i < elemChecked.length; i++) {
                 arrDis.push($(elemChecked[i]).val());
             }
+
             candidato.disponibilidad = arrDis;
 
+
+
             alert(JSON.stringify(candidato));
-           
+
         }
 
-       
 
     </script>
+
+
 </body>
 </html>
