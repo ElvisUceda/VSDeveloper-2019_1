@@ -4,13 +4,17 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using App.Entities.Queries;
+using App.UI.MVC.MantenimientosServices;
 
 namespace App.UI.MVC.Controllers
 {
-    [Authorize]
+   
     public class TrackController : Controller
+
     {
-        ReportesServices.ReporteServicesClient reporteServicesClient=null;
+        ReportesServicesClient reportesServicesClient = null;
+        MantenimientosServicesClient mantenimientosServicesClient = null;
+        
 
         public TrackController()
         {
@@ -26,12 +30,20 @@ namespace App.UI.MVC.Controllers
 
         public ActionResult Buscar(string filtroByNombre)
         {
+            filtroByNombre= string.IsNullOrWhiteSpace(filtroByNombre)? "%":
+        }
 
-            filtroByNombre = String.IsNullOrWhiteSpace(filtroByNombre)?"%": filtroByNombre;
 
-            var model = reporteServicesClient.GetTrackAll(filtroByNombre);
 
-            return PartialView("ListadoResultado", model);
+        public ActionResult VenderTrack()
+        {
+            var customers = MantenimientosServicesClient.GetCustomers(" ");
+            ViewBag.customers = customers;
+
+            var tracks = reportesServicesClient.GetTrackAll(" ");
+            ViewBag.tracks = tracks;
+
+            return View();
         }
     }
 }

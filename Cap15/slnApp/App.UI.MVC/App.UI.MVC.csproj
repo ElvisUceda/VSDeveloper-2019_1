@@ -305,6 +305,7 @@
     <Content Include="Views\Track\ListadoResultado.cshtml" />
     <Content Include="Views\Security\Login.cshtml" />
     <Content Include="Views\Shared\_LayoutAll.cshtml" />
+    <Content Include="Views\Track\VenderTrack.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
