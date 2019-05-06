@@ -6,6 +6,7 @@ namespace App.Entities.Base
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Runtime.Serialization;
 
+    [DataContract]
     [Table("Customer")]
     public partial class Customer
     {
@@ -14,6 +15,7 @@ namespace App.Entities.Base
         {
             Invoice = new HashSet<Invoice>();
         }
+
         [DataMember]
         public int CustomerId { get; set; }
 
@@ -64,7 +66,6 @@ namespace App.Entities.Base
         [StringLength(60)]
         public string Email { get; set; }
 
-       
         [DataMember]
         public int? SupportRepId { get; set; }
 

@@ -16,16 +16,16 @@
                             <option>Seleccionar el cliente</option>
                             @foreach(var customer in ViewBag.customers)
                             {
-                                <option>@customer.FirsName @customer.LastName</option>
+                                <option>@customer.FirstName @customer.LastName</option>
                             }
                         </select>
                     </div>
+                  </div>
                 </div>
-            </div>
             <div class="col-md-6">
                 <div class="form-group form-horizontal">
                     <label class="col-md-2 control-label">Fecha:</label>
-                    <div class="col-md-10">
+                     <div class="col-md-10">
                         <span class="label label-success label-fechas">02/05/2019</span>
                     </div>
                 </div>
@@ -129,8 +129,8 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <button class="btn-primary">Agregar Track</button>
-            </div>
+                <button class="btn btn-primary">Agregar track</button>
+            </div>            
         </div>
     </div>
 </div>

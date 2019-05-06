@@ -10,8 +10,5 @@ namespace App.Domain.Interfaces
     public interface ICustomerDomain
     {
         IEnumerable<Customer> GetCustomers(string nombre);
-
-       
-
     }
 }

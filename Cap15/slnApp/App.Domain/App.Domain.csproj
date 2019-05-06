@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomerDomain.cs" />
+    <Compile Include="InvoiceLineDomain.cs" />
+    <Compile Include="InvoiceDomain.cs" />
     <Compile Include="UsuarioDomain.cs" />
     <Compile Include="TrackDomain.cs" />
     <Compile Include="ArtistDomain.cs" />

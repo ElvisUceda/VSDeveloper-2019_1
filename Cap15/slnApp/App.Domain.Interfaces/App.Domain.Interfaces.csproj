@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IInvoiceLineDomain.cs" />
     <Compile Include="ICustomerDomain.cs" />
+    <Compile Include="IInvoiceDomain.cs" />
     <Compile Include="IUsuarioDomain.cs" />
     <Compile Include="ITrackDomain.cs" />
     <Compile Include="IArtistDomain.cs" />

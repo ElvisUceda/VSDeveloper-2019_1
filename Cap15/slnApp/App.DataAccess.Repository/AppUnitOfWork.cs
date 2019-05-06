@@ -31,14 +31,17 @@ namespace App.DataAccess.Repository
             this.TrackRepository = new TrackRepository(_context);
             this.UsuarioRepository = new UsuarioRepository(_context);
             this.CustomerRepository = new CustomerRepository(_context);
+            this.InvoiceRepository = new InvoiceRepository(_context);
+            this.InvoiceLineRepository = new InvoiceLineRepository(_context);
         }
 
 
-        public IArtistRepository ArtistRepository { get ; set ; }
+        public IArtistRepository ArtistRepository { get; set; }
         public ITrackRepository TrackRepository { get; set; }
         public IUsuarioRepository UsuarioRepository { get; set; }
         public ICustomerRepository CustomerRepository { get; set; }
-
+        public IInvoiceRepository InvoiceRepository { get; set; }
+        public IInvoiceLineRepository InvoiceLineRepository { get; set; } 
 
         public int Complete()
         {

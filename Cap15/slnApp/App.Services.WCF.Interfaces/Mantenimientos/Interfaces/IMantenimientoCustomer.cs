@@ -13,6 +13,7 @@ namespace App.Services.WCF.Interfaces
         [OperationContract]
         IEnumerable<Customer> GetCustomers(string nombre);
 
-       
+
+
     }
 }

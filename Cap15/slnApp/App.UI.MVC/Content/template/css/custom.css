@@ -400,3 +400,7 @@ line-height: 1.428571429;
 .label-fechas{
     font-size:16px;
 }
+
+.row {
+    margin-bottom: 8px;
+}

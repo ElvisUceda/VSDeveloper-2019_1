@@ -12,20 +12,22 @@ namespace App.Domain
 {
     public class CustomerDomain : ICustomerDomain
     {
+
         public IEnumerable<Customer> GetCustomers(string nombre)
         {
             IEnumerable<Customer> result = new List<Customer>();
 
-            using (var uw = new AppUnitOfWork())
+            using(var uw = new AppUnitOfWork())
             {
                 result = uw.CustomerRepository.GetAll(
-                           item => String.Concat(item.FirstName, " ", item.LastName)
-                           .Contains(nombre)
-
-                   );
+                            item=>String.Concat(item.FirstName, " ", item.LastName)
+                                    .Contains(nombre)
+                    );
             }
+
             return result;
         }
-     }
-}
 
+     
+    }
+}
