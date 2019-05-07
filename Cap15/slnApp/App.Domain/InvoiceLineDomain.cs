@@ -14,9 +14,33 @@ namespace App.Domain
     {
         public bool SaveInvoiceLine(InvoiceLine invoiceLine)
         {
-           
+            var result = false;
 
-            return true;
+            try
+            {
+                using (var uw = new AppUnitOfWork())
+                {
+                    /*Editando InvoiceLine*/
+                    if (invoiceLine.InvoiceLineId > 0)
+                    {
+                        uw.InvoiceLineRepository.Update(invoiceLine);
+                    }
+                    else 
+                    {
+                        uw.InvoiceLineRepository.Add(invoiceLine);
+                    }
+
+                    result = uw.Complete() > 0;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                //Agregar el exeption aun log de errores
+            }
+
+            return result;
+       
 
         }
     }

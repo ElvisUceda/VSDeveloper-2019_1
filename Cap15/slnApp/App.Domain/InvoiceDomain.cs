@@ -14,26 +14,52 @@ namespace App.Domain
     {
         public bool SaveInvoice(Invoice invoice)
         {
-            /*
-             En la prueba unitaria
+            var result = false;
 
-            var invoiceTest = new Invoice();
-            invoiceTest.CustomerId = 1;
-            invoiceTest.InvoiceDate = DateTime.Now;
-            invoiceTest.InvoiceLine = new List<InvoiceLine>();
-            invoiceTest.InvoiceLine.Add(
-                new InvoiceLine()
+            try
+            {
+                using (var uw = new AppUnitOfWork())
                 {
-                    Quantity=12,
-                    TrackId = 1,
-                    UnitPrice = 10
-                }
-                );
+                    /*Editando */
+                    if (invoice.InvoiceId > 0)
+                    {
+                        uw.InvoiceRepository.Update(invoice);
+                    }
+                    else //Cuando es nuevo factura
+                    {
+                        uw.InvoiceRepository.Add(invoice);
+                    }
 
-            */
+                    result = uw.Complete() > 0;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                //Agregar el exeption aun log de errores
+            }
 
             return true;
-
         }
     }
 }
+
+/*
+ En la prueba unitaria
+
+var invoiceTest = new Invoice();
+invoiceTest.CustomerId = 1;
+invoiceTest.InvoiceDate = DateTime.Now;
+invoiceTest.InvoiceLine = new List<InvoiceLine>();
+invoiceTest.InvoiceLine.Add(
+    new InvoiceLine()
+    {
+        Quantity=12,
+        TrackId = 1,
+        UnitPrice = 10
+    }
+    );
+
+*/
+
+

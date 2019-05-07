@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using App.Entities.Base;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace App.Service.WCFAppTest
