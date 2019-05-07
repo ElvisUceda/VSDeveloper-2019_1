@@ -13,7 +13,7 @@ namespace App.DataAccess.Repository.Interface
         IUsuarioRepository UsuarioRepository { get; set; }
         ICustomerRepository CustomerRepository { get; set; }
         IInvoiceRepository InvoiceRepository { get; set; }
-        IInvoiceLineRepository invoiceLineRepository { get; set; }
+        IInvoiceLineRepository InvoiceLineRepository { get; set; }
         int Complete();
     }
 }

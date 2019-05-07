@@ -52,7 +52,6 @@ C:\vsdeveloper2017\LabGitHub\Cap10-MVC\slnApp\App.Service.WCFAppTest\obj\Debug\A
 C:\vsdeveloper2017\LabGitHub\Cap10-MVC\slnApp\App.Service.WCFAppTest\obj\Debug\App.Service.WCFAppTest.csproj.CopyComplete
 C:\vsdeveloper2017\LabGitHub\Cap10-MVC\slnApp\App.Service.WCFAppTest\obj\Debug\App.Service.WCFAppTest.dll
 C:\vsdeveloper2017\LabGitHub\Cap10-MVC\slnApp\App.Service.WCFAppTest\obj\Debug\App.Service.WCFAppTest.pdb
-D:\LabGitHub\Cap15\slnApp\App.Service.WCFAppTest\obj\Debug\App.Service.WCFAppTest.csprojResolveAssemblyReference.cache
 D:\LabGitHub\Cap15\slnApp\App.Service.WCFAppTest\obj\Debug\App.Service.WCFAppTest.csproj.CoreCompileInputs.cache
 D:\LabGitHub\Cap15\slnApp\App.Service.WCFAppTest\obj\Debug\App.Service.WCFAppTest.dll
 D:\LabGitHub\Cap15\slnApp\App.Service.WCFAppTest\obj\Debug\App.Service.WCFAppTest.pdb
@@ -72,3 +71,4 @@ D:\LabGitHub\Cap15\slnApp\App.Service.WCFAppTest\bin\Debug\App.Entities.Base.pdb
 D:\LabGitHub\Cap15\slnApp\App.Service.WCFAppTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 D:\LabGitHub\Cap15\slnApp\App.Service.WCFAppTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 D:\LabGitHub\Cap15\slnApp\App.Service.WCFAppTest\obj\Debug\App.Service.WCFAppTest.csproj.CopyComplete
+D:\LabGitHub\Cap15\slnApp\App.Service.WCFAppTest\obj\Debug\App.Service.WCFAppTest.csprojAssemblyReference.cache

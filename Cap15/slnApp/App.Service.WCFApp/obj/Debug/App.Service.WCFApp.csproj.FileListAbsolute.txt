@@ -113,8 +113,8 @@ D:\LabGitHub\Cap15\slnApp\App.Service.WCFApp\bin\EntityFramework.SqlServer.xml
 D:\LabGitHub\Cap15\slnApp\App.Service.WCFApp\bin\App.DataAccess.Repository.pdb
 D:\LabGitHub\Cap15\slnApp\App.Service.WCFApp\bin\App.DataAccess.Repository.dll.config
 D:\LabGitHub\Cap15\slnApp\App.Service.WCFApp\bin\App.DataAccess.Repository.Interface.pdb
-D:\LabGitHub\Cap15\slnApp\App.Service.WCFApp\obj\Debug\App.Service.WCFApp.csprojResolveAssemblyReference.cache
 D:\LabGitHub\Cap15\slnApp\App.Service.WCFApp\obj\Debug\App.Service.WCFApp.csproj.CoreCompileInputs.cache
 D:\LabGitHub\Cap15\slnApp\App.Service.WCFApp\obj\Debug\App.Service.WCFApp.csproj.CopyComplete
 D:\LabGitHub\Cap15\slnApp\App.Service.WCFApp\obj\Debug\App.Service.WCFApp.dll
 D:\LabGitHub\Cap15\slnApp\App.Service.WCFApp\obj\Debug\App.Service.WCFApp.pdb
+D:\LabGitHub\Cap15\slnApp\App.Service.WCFApp\obj\Debug\App.Service.WCFApp.csprojAssemblyReference.cache

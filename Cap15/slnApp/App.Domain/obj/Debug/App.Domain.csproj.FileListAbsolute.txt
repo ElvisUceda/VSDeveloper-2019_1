@@ -73,8 +73,8 @@ D:\LabGitHub\Cap15\slnApp\App.Domain\bin\Debug\App.Domain.Interfaces.pdb
 D:\LabGitHub\Cap15\slnApp\App.Domain\bin\Debug\App.Entities.Base.pdb
 D:\LabGitHub\Cap15\slnApp\App.Domain\bin\Debug\App.Entities.Queries.pdb
 D:\LabGitHub\Cap15\slnApp\App.Domain\bin\Debug\EntityFramework.xml
-D:\LabGitHub\Cap15\slnApp\App.Domain\obj\Debug\App.Domain.csprojResolveAssemblyReference.cache
 D:\LabGitHub\Cap15\slnApp\App.Domain\obj\Debug\App.Domain.csproj.CoreCompileInputs.cache
 D:\LabGitHub\Cap15\slnApp\App.Domain\obj\Debug\App.Domain.csproj.CopyComplete
 D:\LabGitHub\Cap15\slnApp\App.Domain\obj\Debug\App.Domain.dll
 D:\LabGitHub\Cap15\slnApp\App.Domain\obj\Debug\App.Domain.pdb
+D:\LabGitHub\Cap15\slnApp\App.Domain\obj\Debug\App.Domain.csprojAssemblyReference.cache

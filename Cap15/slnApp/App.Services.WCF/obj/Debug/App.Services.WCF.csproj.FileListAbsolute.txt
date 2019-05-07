@@ -93,8 +93,8 @@ D:\LabGitHub\Cap15\slnApp\App.Services.WCF\bin\Debug\App.DataAccess.Repository.p
 D:\LabGitHub\Cap15\slnApp\App.Services.WCF\bin\Debug\App.DataAccess.Repository.dll.config
 D:\LabGitHub\Cap15\slnApp\App.Services.WCF\bin\Debug\App.DataAccess.Repository.Interface.pdb
 D:\LabGitHub\Cap15\slnApp\App.Services.WCF\bin\Debug\EntityFramework.xml
-D:\LabGitHub\Cap15\slnApp\App.Services.WCF\obj\Debug\App.Services.WCF.csprojResolveAssemblyReference.cache
 D:\LabGitHub\Cap15\slnApp\App.Services.WCF\obj\Debug\App.Services.WCF.csproj.CoreCompileInputs.cache
 D:\LabGitHub\Cap15\slnApp\App.Services.WCF\obj\Debug\App.Services.WCF.csproj.CopyComplete
 D:\LabGitHub\Cap15\slnApp\App.Services.WCF\obj\Debug\App.Services.WCF.dll
 D:\LabGitHub\Cap15\slnApp\App.Services.WCF\obj\Debug\App.Services.WCF.pdb
+D:\LabGitHub\Cap15\slnApp\App.Services.WCF\obj\Debug\App.Services.WCF.csprojAssemblyReference.cache

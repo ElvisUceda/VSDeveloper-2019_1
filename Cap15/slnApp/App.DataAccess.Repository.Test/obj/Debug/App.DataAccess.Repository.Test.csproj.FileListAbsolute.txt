@@ -148,8 +148,8 @@ D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Test\bin\Debug\EntityFramewo
 D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Test\bin\Debug\EntityFramework.SqlServer.xml
 D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Test\obj\Debug\App.DataAccess.Repository.Test.csprojResolveAssemblyReference.cache
 D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Test\obj\Debug\App.DataAccess.Repository.Test.csproj.CoreCompileInputs.cache
 D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Test\obj\Debug\App.DataAccess.Repository.Test.csproj.CopyComplete
 D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Test\obj\Debug\App.DataAccess.Repository.Test.dll
 D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Test\obj\Debug\App.DataAccess.Repository.Test.pdb
+D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Test\obj\Debug\App.DataAccess.Repository.Test.csprojAssemblyReference.cache

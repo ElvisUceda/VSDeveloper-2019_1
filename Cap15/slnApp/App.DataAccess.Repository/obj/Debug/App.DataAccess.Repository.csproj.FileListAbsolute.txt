@@ -88,3 +88,4 @@ D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository\obj\Debug\App.DataAccess.Rep
 D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository\obj\Debug\App.DataAccess.Repository.csproj.CopyComplete
 D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository\obj\Debug\App.DataAccess.Repository.dll
 D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository\obj\Debug\App.DataAccess.Repository.pdb
+D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository\obj\Debug\App.DataAccess.Repository.csprojAssemblyReference.cache

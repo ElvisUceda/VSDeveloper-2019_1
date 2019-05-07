@@ -83,8 +83,8 @@ D:\LabGitHub\Cap15\slnApp\App.Domain.Interfaces\bin\Debug\App.DataAccess.Reposit
 D:\LabGitHub\Cap15\slnApp\App.Domain.Interfaces\bin\Debug\App.Entities.Base.pdb
 D:\LabGitHub\Cap15\slnApp\App.Domain.Interfaces\bin\Debug\App.Entities.Queries.pdb
 D:\LabGitHub\Cap15\slnApp\App.Domain.Interfaces\bin\Debug\EntityFramework.xml
-D:\LabGitHub\Cap15\slnApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.csprojResolveAssemblyReference.cache
 D:\LabGitHub\Cap15\slnApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.csproj.CoreCompileInputs.cache
 D:\LabGitHub\Cap15\slnApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.csproj.CopyComplete
 D:\LabGitHub\Cap15\slnApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.dll
 D:\LabGitHub\Cap15\slnApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.pdb
+D:\LabGitHub\Cap15\slnApp\App.Domain.Interfaces\obj\Debug\App.Domain.Interfaces.csprojAssemblyReference.cache

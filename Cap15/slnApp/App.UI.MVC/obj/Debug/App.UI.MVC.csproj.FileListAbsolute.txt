@@ -293,8 +293,8 @@ D:\LabGitHub\Cap15\slnApp\App.UI.MVC\bin\es\System.Web.Razor.resources.dll
 D:\LabGitHub\Cap15\slnApp\App.UI.MVC\bin\es\System.Web.WebPages.resources.dll
 D:\LabGitHub\Cap15\slnApp\App.UI.MVC\bin\es\System.Web.WebPages.Deployment.resources.dll
 D:\LabGitHub\Cap15\slnApp\App.UI.MVC\bin\es\System.Web.WebPages.Razor.resources.dll
-D:\LabGitHub\Cap15\slnApp\App.UI.MVC\obj\Debug\App.UI.MVC.csprojResolveAssemblyReference.cache
 D:\LabGitHub\Cap15\slnApp\App.UI.MVC\obj\Debug\App.UI.MVC.csproj.CoreCompileInputs.cache
 D:\LabGitHub\Cap15\slnApp\App.UI.MVC\obj\Debug\App.UI.MVC.csproj.CopyComplete
 D:\LabGitHub\Cap15\slnApp\App.UI.MVC\obj\Debug\App.UI.MVC.dll
 D:\LabGitHub\Cap15\slnApp\App.UI.MVC\obj\Debug\App.UI.MVC.pdb
+D:\LabGitHub\Cap15\slnApp\App.UI.MVC\obj\Debug\App.UI.MVC.csprojAssemblyReference.cache

@@ -37,8 +37,8 @@ D:\LabGitHub\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Debug\App.Entities.Bas
 D:\LabGitHub\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Debug\App.Entities.Queries.dll
 D:\LabGitHub\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Debug\App.Entities.Base.pdb
 D:\LabGitHub\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Debug\App.Entities.Queries.pdb
-D:\LabGitHub\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Debug\App.Services.WCF.Interfaces.csprojResolveAssemblyReference.cache
 D:\LabGitHub\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Debug\App.Services.WCF.Interfaces.csproj.CoreCompileInputs.cache
 D:\LabGitHub\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Debug\App.Services.WCF.Interfaces.csproj.CopyComplete
 D:\LabGitHub\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Debug\App.Services.WCF.Interfaces.dll
 D:\LabGitHub\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Debug\App.Services.WCF.Interfaces.pdb
+D:\LabGitHub\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Debug\App.Services.WCF.Interfaces.csprojAssemblyReference.cache
