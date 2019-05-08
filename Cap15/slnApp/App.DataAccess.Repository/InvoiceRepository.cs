@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace App.DataAccess.Repository
 {
-    public class InvoiceRepository : GenericRepository<Invoice>, IInvoiceRepository
+    public class InvoiceRepository:GenericRepository<Invoice>, IInvoiceRepository
     {
-        public InvoiceRepository(DbContext context):base(context)
+        public InvoiceRepository(DbContext context) : base(context)
         {
 
         }

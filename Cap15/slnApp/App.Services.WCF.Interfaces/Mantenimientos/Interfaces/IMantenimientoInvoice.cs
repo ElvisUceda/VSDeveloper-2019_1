@@ -10,11 +10,7 @@ namespace App.Services.WCF.Interfaces
 {
     public partial interface IMantenimientosServices
     {
-       
-
         [OperationContract]
         bool SaveInvoice(Invoice entity);
-
-      
     }
 }

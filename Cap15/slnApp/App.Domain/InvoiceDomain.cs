@@ -12,7 +12,7 @@ namespace App.Domain
 {
     public class InvoiceDomain : IInvoiceDomain
     {
-        public bool SaveInvoice(Invoice invoice)
+        public bool SaveInvoice(Invoice entity)
         {
             var result = false;
 
@@ -20,46 +20,25 @@ namespace App.Domain
             {
                 using (var uw = new AppUnitOfWork())
                 {
-                    /*Editando */
-                    if (invoice.InvoiceId > 0)
+                    if (entity.InvoiceId > 0)
                     {
-                        uw.InvoiceRepository.Update(invoice);
+                        uw.InvoiceRepository.Update(entity);
                     }
-                    else //Cuando es nuevo factura
+                    else
                     {
-                        uw.InvoiceRepository.Add(invoice);
+                        uw.InvoiceRepository.Add(entity);
                     }
 
                     result = uw.Complete() > 0;
+                    result = true;
                 }
 
             }
             catch (Exception ex)
             {
-                //Agregar el exeption aun log de errores
             }
 
-            return true;
+            return result;
         }
     }
 }
-
-/*
- En la prueba unitaria
-
-var invoiceTest = new Invoice();
-invoiceTest.CustomerId = 1;
-invoiceTest.InvoiceDate = DateTime.Now;
-invoiceTest.InvoiceLine = new List<InvoiceLine>();
-invoiceTest.InvoiceLine.Add(
-    new InvoiceLine()
-    {
-        Quantity=12,
-        TrackId = 1,
-        UnitPrice = 10
-    }
-    );
-
-*/
-
-

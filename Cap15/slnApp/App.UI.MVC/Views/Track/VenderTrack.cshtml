@@ -14,18 +14,18 @@
                         <select id="cliente" class="form-control"
                                 placeholder="Seleccionar el cliente">
                             <option>Seleccionar el cliente</option>
-                            @foreach(var customer in ViewBag.customers)
+                            @foreach (var customer in ViewBag.customers)
                             {
                                 <option value="@customer.CustomerId">@customer.FirstName @customer.LastName</option>
                             }
                         </select>
                     </div>
-                  </div>
                 </div>
+            </div>
             <div class="col-md-6">
                 <div class="form-group form-horizontal">
                     <label class="col-md-2 control-label">Fecha:</label>
-                     <div class="col-md-10">
+                    <div class="col-md-10">
                         <span class="label label-success label-fechas">02/05/2019</span>
                     </div>
                 </div>
@@ -134,126 +134,129 @@
         <div class="row">
             <div class="col-md-12">
                 <button class="btn btn-primary btn-agregar">Agregar track</button>
-            </div>            
+            </div>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <div id="detalle">
+                <div class="detalle">
 
                 </div>
             </div>
-        </div>
+        <div>
+    </div>
+</div>
     </div>
 </div>
 
 <br />
 <button class="btn btn-danger btn-guardar">Guardar</button>
 
-
 @section scripts
 {
-   <script>
+    <script>
 
-       var venta = [];
-       $(Init());
+        var venta = [];
 
-       function Init()
-       {
-           $(".btn-agregar").on("click", agregarProducto);
-               $(".btn-guardar").on("click", grabar)
-       }
+        $(Init());
 
-       function agregarProducto()
-       {
-           var trackName = $("#track").find('option:selected').text();
-           var trackId = $("#track").val();
-           var precio = $("#precio").val();
-           var cantidad = $("#cantidad").val();
-           var subTotal = cantidad * precio; 
+        function Init()
+        {
+            $(".btn-agregar").on("click", agregarProducto);
+            $(".btn-guardar").on("click", grabar)
+        }
 
-           var detalle = {
-               trackName: trackName, trackId: trackId,
-               precio: precio, cantidad: cantidad,
-               subTotal: subTotal
-              
-           };
+        function agregarProducto()
+        {
+            var trackName = $("#track").find('option:selected').text();
+            var trackId = $("#track").val();
+            var precio = $("#precio").val();
+            var cantidad = $("#cantidad").val();
+            var subTotal = cantidad * precio;
 
-           venta.push(detalle);
 
-           alert(JSON.stringify(detalle));
+            var detalle = {
+                trackName: trackName, trackId: trackId,
+                precio: precio, cantidad: cantidad,
+                subTotal: subTotal
+            };
 
-           showTableDetalle();
-       }
+            venta.push(detalle);
 
-       function showTableDetalle() {
-           var tableString = "<table class='table'>";
-           tableString += "<tr>";
-           tableString += "<th>Track</th>";
-           tableString += "<th>Precio</th>";
-           tableString += "<th>Cantidad</th>";
-           tableString += "<th>Sub Total</th>";
-           tableString += "</tr>";
 
-           for (var i = 0; i < venta.length; i++) {
+            showTableDetalle();
+        }
 
-               var subTotal = venta[i].cantidad * venta[i].precio;
+        function showTableDetalle() {
+            var tableString = "<table class='table'>";
+            tableString += "<tr>";
+            tableString += "<th>Track</th>";
+            tableString += "<th>Precio</th>";
+            tableString += "<th>Cantidad</th>";
+            tableString += "<th>Sub Total</th>";
+            tableString += "</tr>";
 
-               tableString += "<tr>";
-               tableString += "<td>" + venta[i].trackName + "</td>";
-               tableString += "<td>" + venta[i].precio + "</td>";
-               tableString += "<td>" + venta[i].cantidad + "</td>";
-               tableString += "<td>" + venta[i].subTotal + "</td>";
-               tableString += "</tr>";
-           }
+            for (var i = 0; i < venta.length; i++) {               
+                tableString += "<tr>";
+                tableString += "<td>"+venta[i].trackName+"</td>";
+                tableString += "<td>" + venta[i].precio+"</td>";
+                tableString += "<td>" + venta[i].cantidad+"</td>";
+                tableString += "<td>" + venta[i].subTotal+"</td>";
+                tableString += "</tr>";
+            }
 
-           tableString += "</table>";
+            tableString += "</table>";
 
-           $(".detalle").html(tableString);
+            $(".detalle").html(tableString);
 
-       }
+        }
 
-       function grabar() {
+        function grabar() {
+                        var clienteId = $("#cliente").val();
+            var direccion = $("#direccion").val();
+            var ciudad = $("#ciudad").val();
+            var estado = $("#estado").val();
+            var pais = $("#pais").val();
+            var postal = $("#postal").val();
 
-           debugger;
-           var clienteId = $("#cliente").val();
-           var direccion = $("#direccion").val();
-           var ciudad = $("#ciudad").val();
-           var estado = $("#estado").val();
-           var pais = $("#pais").val();
-           var postal = $("#postal").val();
+            var ventaInfo = {
+                CustomerId: clienteId,
+                BillingAddress: direccion,
+                BillingCity:ciudad,
+                BillingState:estado,
+                BillingCountry:pais,
+                BillingPostalCode: postal,
+                InvoiceLine:[]
+            };
 
-           var ventaInfo = {
-               CustomerId: clienteId,
-               BillingAddress: direccion,
-               BillingCity: ciudad,
-               BillingState: estado,
-               BillingCountry: pais,
-               BillingPostalCode: postal,
-               InvoiceLine:[]
-              
-
-           };
-
-           for (var i = 0; i < venta.length; i++) {
-               var detalle = {
-                   TrackId: venta[i].trackId,
-                   UnitPrice: venta[i].precio,
-                   Quantity: venta[i].cantidad
+            var total = 0;
+            for (var i = 0; i < venta.length; i++) {
+                var detalle = {
+                    TrackId: venta[i].trackId,
+                    UnitPrice: venta[i].precio,
+                    Quantity: venta[i].cantidad
                 };
-               ventaInfo.InvoiceLine.push(detalle);
-           }
+                total += venta[i].subTotal;
 
-           //Invocando mediante AJAX
-           $.post("/track/GrabarVenta",
-               {
-                   venta: ventaInfo
-               },
-               function (response) {
+                ventaInfo.InvoiceLine.push(detalle);
+            }
+
+            ventaInfo.Total = total;
+
+            //Invocando mediante AJAX
+            $.post("/track/GrabarVenta",
+                {
+                    venta: ventaInfo
+                },
+                function (response) {
 
 
-               }
-           );
-       }
+                }
 
-    </script> 
+            );
+
+        }
+
+
+    </script>
+    
 }

@@ -42,14 +42,3 @@ C:\vsdeveloper2017\LabGitHub\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Releas
 C:\vsdeveloper2017\LabGitHub\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Release\App.Services.WCF.Interfaces.csproj.CopyComplete
 C:\vsdeveloper2017\LabGitHub\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Release\App.Services.WCF.Interfaces.dll
 C:\vsdeveloper2017\LabGitHub\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Release\App.Services.WCF.Interfaces.pdb
-D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Release\App.Services.WCF.Interfaces.dll
-D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Release\App.Services.WCF.Interfaces.pdb
-D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Release\App.Entities.Base.dll
-D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Release\App.Entities.Queries.dll
-D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Release\App.Entities.Base.pdb
-D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Services.WCF.Interfaces\bin\Release\App.Entities.Queries.pdb
-D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Release\App.Services.WCF.Interfaces.csprojAssemblyReference.cache
-D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Release\App.Services.WCF.Interfaces.csproj.CoreCompileInputs.cache
-D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Release\App.Services.WCF.Interfaces.csproj.CopyComplete
-D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Release\App.Services.WCF.Interfaces.dll
-D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Services.WCF.Interfaces\obj\Release\App.Services.WCF.Interfaces.pdb

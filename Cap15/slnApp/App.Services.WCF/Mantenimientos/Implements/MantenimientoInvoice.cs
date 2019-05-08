@@ -11,11 +11,9 @@ using System.Text;
 
 namespace App.Services.WCF
 {
-    // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de clase "Service1" en el código y en el archivo de configuración a la vez.
-    public partial class MantenimientosServices :
+    public partial class MantenimientosServices : 
         IMantenimientosServices
     {
-
         public bool SaveInvoice(Invoice entity)
         {
             var result = false;
@@ -25,11 +23,12 @@ namespace App.Services.WCF
                 IInvoiceDomain domain = new InvoiceDomain();
                 result = domain.SaveInvoice(entity);
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
-
             }
+
             return result;
+
         }
     }
 }

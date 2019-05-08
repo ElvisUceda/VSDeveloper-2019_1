@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="IAppUnitOfWork.cs" />
     <Compile Include="ICustomerRepository.cs" />
-    <Compile Include="IInvoiceLineRepository.cs" />
     <Compile Include="IInvoiceRepository.cs" />
     <Compile Include="IUsuarioRepository.cs" />
     <Compile Include="ITrackRepository.cs" />
