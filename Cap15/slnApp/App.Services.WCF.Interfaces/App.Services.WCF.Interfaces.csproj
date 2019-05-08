@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mantenimientos\Interfaces\IMantenimientoInvoiceLine.cs" />
     <Compile Include="Mantenimientos\Interfaces\IMantenimientoInvoice.cs" />
     <Compile Include="Mantenimientos\Interfaces\IMantenimientoCustomer.cs" />
     <Compile Include="Mantenimientos\Interfaces\IMantenimientoArtist.cs" />

@@ -55,7 +55,6 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mantenimientos\Implements\MantenimientoInvoiceLine.cs" />
     <Compile Include="Mantenimientos\Implements\MantenimientoInvoice.cs" />
     <Compile Include="Mantenimientos\Implements\MantenimientoCustomer.cs" />
     <Compile Include="Mantenimientos\Implements\MantenimientoArtist.cs" />

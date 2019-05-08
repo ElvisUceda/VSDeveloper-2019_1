@@ -33,3 +33,9 @@ D:\LabGitHub\Cap15\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.cs
 D:\LabGitHub\Cap15\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.dll
 D:\LabGitHub\Cap15\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.pdb
 D:\LabGitHub\Cap15\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.csprojAssemblyReference.cache
+D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Entities.Queries\bin\Debug\App.Entities.Queries.dll
+D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Entities.Queries\bin\Debug\App.Entities.Queries.pdb
+D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.csprojAssemblyReference.cache
+D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.csproj.CoreCompileInputs.cache
+D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.dll
+D:\LabGitHubVSDeveloper-2019_1\Cap15\slnApp\App.Entities.Queries\obj\Debug\App.Entities.Queries.pdb
