@@ -53,12 +53,12 @@ namespace App.UI.MVC.Controllers
         }
 
         [HttpPost]
-        public ActionResult GrabarVenta(Invoice venta)
+        public JsonResult GrabarVenta(Invoice venta)
         {
             venta.InvoiceDate = DateTime.Now;
             var result = mantenimientosServicesClient.SaveInvoice(venta);
 
-            return View();
+            return Json(result);
         }
     }
 }

@@ -249,7 +249,14 @@
                 },
                 function (response) {
 
+                  debugger;
 
+                    if (response) {
+                        app.helpers.showMessageOk("Se registró correctamente");
+                    }
+                    else {
+                        app.helpers.showMessageError("No se pudo registrar la venta");
+                    }
                 }
 
             );
