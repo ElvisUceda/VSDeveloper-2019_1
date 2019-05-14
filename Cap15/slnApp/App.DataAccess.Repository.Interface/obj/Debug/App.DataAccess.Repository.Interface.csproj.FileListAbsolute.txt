@@ -64,3 +64,14 @@ D:\VSDeveloper-2019_1\Cap15\slnApp\App.DataAccess.Repository.Interface\obj\Debug
 D:\VSDeveloper-2019_1\Cap15\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.csproj.CopyComplete
 D:\VSDeveloper-2019_1\Cap15\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.dll
 D:\VSDeveloper-2019_1\Cap15\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.pdb
+D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.DataAccess.Repository.Interface.dll
+D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.DataAccess.Repository.Interface.pdb
+D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Base.dll
+D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Queries.dll
+D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Base.pdb
+D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Interface\bin\Debug\App.Entities.Queries.pdb
+D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.csprojAssemblyReference.cache
+D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.csproj.CoreCompileInputs.cache
+D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.csproj.CopyComplete
+D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.dll
+D:\LabGitHub\Cap15\slnApp\App.DataAccess.Repository.Interface\obj\Debug\App.DataAccess.Repository.Interface.pdb
