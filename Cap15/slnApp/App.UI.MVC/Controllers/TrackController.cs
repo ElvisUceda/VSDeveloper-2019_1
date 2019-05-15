@@ -52,6 +52,18 @@ namespace App.UI.MVC.Controllers
             return View();
         }
 
+        public ActionResult VenderTrackVue()
+        {
+            var customers = mantenimientosServicesClient.GetCustomers("");
+            ViewBag.customers = customers;
+
+            var tracks = reporteServicesClient.GetTrackAll("%");
+            ViewBag.tracks = tracks;
+
+
+            return View();
+        }
+
         [HttpPost]
         public JsonResult GrabarVenta(Invoice venta)
         {

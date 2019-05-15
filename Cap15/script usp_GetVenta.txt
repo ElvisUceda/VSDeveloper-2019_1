@@ -1,0 +1,21 @@
+CREATE PROCEDURE usp_GetVenta
+(
+@InvoiceId INT
+)
+AS
+BEGIN
+SELECT        B.InvoiceId, B.BillingAddress,
+			  B.BillingCity,B.BillingCountry,
+			  B.BillingPostalCode,B.BillingState,
+			  A.FirstName,
+			  A.LastName, D.Name AS TrackName,
+			  B.InvoiceDate, B.Total,
+		      C.UnitPrice,C.Quantity
+			 
+FROM            dbo.Customer AS A INNER JOIN
+              dbo.Invoice AS B ON A.CustomerId=B.CustomerId INNER JOIN
+              dbo.InvoiceLine AS C ON B.InvoiceId=C.InvoiceId INNER JOIN
+              dbo.Track AS D ON C.TrackId=D.TrackId
+WHERE B.InvoiceId=@InvoiceId
+END
+GO
