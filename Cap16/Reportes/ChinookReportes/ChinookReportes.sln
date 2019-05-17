@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ChinookReportes", "ChinookReportes\ChinookReportes.rptproj", "{6230F34D-745C-4DBB-B705-AA4A78C0A068}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6230F34D-745C-4DBB-B705-AA4A78C0A068}.Debug|Default.ActiveCfg = Debug
+		{6230F34D-745C-4DBB-B705-AA4A78C0A068}.Debug|Default.Build.0 = Debug
+		{6230F34D-745C-4DBB-B705-AA4A78C0A068}.Debug|Default.Deploy.0 = Debug
+		{6230F34D-745C-4DBB-B705-AA4A78C0A068}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{6230F34D-745C-4DBB-B705-AA4A78C0A068}.DebugLocal|Default.Build.0 = DebugLocal
+		{6230F34D-745C-4DBB-B705-AA4A78C0A068}.Release|Default.ActiveCfg = Release
+		{6230F34D-745C-4DBB-B705-AA4A78C0A068}.Release|Default.Build.0 = Release
+		{6230F34D-745C-4DBB-B705-AA4A78C0A068}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
